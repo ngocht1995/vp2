@@ -6,7 +6,7 @@
 		    <div class="menu">
 		      <ul id="menu" >
 		        <li id="menu-home" ><a href="index.php"><i class="fa fa-tachometer"></i><span>Trang chủ</span></a></li>
-		    	<li><a href="#"><i class="fa fa-search"></i><span>Đừng nhìn</span></a></li>
+		    	<li><a href="http://lib.hpu.edu.vn"><i class="fa fa-rss"></i><span>Đừng vào</span></a></li>
 		        <li><a href="#"><i class="fa fa-calendar-check-o"></i><span>Đừng tra</span><span class="fa fa-angle-right" style="float: right"></span></a>
 		        	 <ul id="menu-academico-sub" >
 		        	 	<li><a href="http://hpu.edu.vn/thoikhoabieu/Tkb_GiaoVien/DanhSachGiaoVien.html">Thời khóa biểu giáo viên</a></li>
@@ -26,7 +26,7 @@
 						<li><a href="http://dieukien.hpu.edu.vn"><i class="fa fa-tree"></i><span>Đừng leo</span></a></li>
 		    		<li><a href="http://qlgd.hpu.edu.vn"><i class="fa fa-check-square-o"></i><span>Đừng check</span></a></li>
 						<li><a href="http://tailieu.hpu.edu.vn"><i class="fa fa-database"></i><span>Đừng tìm</span></a></li>
-						<li><a href="http://lib.hpu.edu.vn"><i class="fa fa-rss"></i><span>Đừng vào</span></a></li>
+						<li><a href="cauhoi/traloi.php"><i class="fa fa-search"></i><span>Đừng vào</span></a></li>
 		      </ul>
 		    </div>
 	 </div>

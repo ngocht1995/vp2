@@ -131,9 +131,9 @@
 				<div class="market-update-block clr-block-2" >
 					<a href="cauhoi/traloi.php">
 					<div class="col-md-8 market-update-left">
-						<h3>1</h3>
+						<h3>9</h3>
 						<h4>Giải đáp </h4>
-						<p>Đừng tìm <i class="icofont icofont-animal-monkey" style="font-size: 25px"></i></p>
+						<p>Đừng kiếm <i class="icofont icofont-animal-monkey" style="font-size: 25px"></i></p>
 						
 					</div>
 					<div class="col-md-4 market-update-right">
