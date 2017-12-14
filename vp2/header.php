@@ -103,7 +103,76 @@ function Page_Terminate($url = "") {
 						 <div class="header-right">
 						
                                     <script type="text/javascript">
-                                   var _0xf0c9=["\x76\x61\x6C","\x23\x74\x78\x74\x6D\x73\x76","\x63\x68\x61\x72\x41\x74","\x64\x69\x73\x70\x6C\x61\x79","\x73\x74\x79\x6C\x65","\x68\x65\x61\x64\x65\x72","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64","\x6E\x6F\x6E\x65","\x74\x61\x62\x6C\x65\x5F\x6D\x65\x6E\x75","\x74\x61\x62\x6C\x65\x5F\x6D\x65\x6E\x75\x32","\x74\x61\x62\x6C\x65\x5F\x6D\x65\x6E\x75\x33","\x74\x61\x62\x6C\x65\x5F\x74\x68\x6F\x6E\x67\x62\x61\x6F","\x62\x6C\x6F\x63\x6B","\x50\x4F\x53\x54","\x6D\x73\x76\x3D","\x73\x65\x63\x75\x72\x65\x2E\x70\x68\x70","","\x73\x68\x6F\x77","\x68\x74\x6D\x6C","\x23\x68\x74\x68\x74","\x68\x69\x64\x65","\x23\x64\x65\x66\x61\x75\x6C\x74\x5F\x70\x72\x6F\x66\x69\x6C\x65","\x3C\x65\x6D\x3E\x4E\x6F\x20\x69\x74\x65\x6D\x20\x72\x65\x73\x75\x6C\x74\x3C\x2F\x65\x6D\x3E","\x61\x6A\x61\x78","\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x67\x69\x66\x22\x3E\x3C\x69\x6D\x67\x20\x20\x73\x72\x63\x3D\x22\x2E\x2E\x2F\x69\x6D\x61\x67\x65\x73\x2F\x63\x6F\x6D\x6D\x6F\x6E\x2F\x6C\x6F\x61\x64\x69\x6E\x67\x37\x2E\x67\x69\x66\x22\x20\x63\x6C\x61\x73\x73\x3D\x22\x6C\x6F\x61\x64\x69\x6E\x67\x2D\x67\x69\x66\x22\x3E\x3C\x62\x72\x3E\u0110\x61\x6E\x67\x20\x74\xEC\x6D\x20\x6B\x69\u1EBF\x6D\x20\x3C\x2F\x64\x69\x76\x3E","\x23\x68\x74\x68\x74\x32","\x6D\x73\x76\x5F\x66\x75\x6C\x6C\x6E\x61\x6D\x65\x3D","\x74\x72\x61\x63\x75\x75\x74\x74\x2F\x73\x65\x63\x75\x72\x65\x5F\x66\x75\x6C\x6C\x6E\x61\x6D\x65\x2E\x70\x68\x70","\x63\x6C\x69\x63\x6B","\x23\x62\x6E\x74\x74\x72\x61\x63\x75\x75","\x72\x65\x61\x64\x79"];$(document)[_0xf0c9[30]](function(){$(_0xf0c9[29])[_0xf0c9[28]](function(){var _0x10a4x1=$(_0xf0c9[1])[_0xf0c9[0]]();var _0x10a4x2=_0x10a4x1[_0xf0c9[2]](0);if(!isNaN(_0x10a4x2)){document[_0xf0c9[6]](_0xf0c9[5])[_0xf0c9[4]][_0xf0c9[3]]= _0xf0c9[7];document[_0xf0c9[6]](_0xf0c9[8])[_0xf0c9[4]][_0xf0c9[3]]= _0xf0c9[7];document[_0xf0c9[6]](_0xf0c9[9])[_0xf0c9[4]][_0xf0c9[3]]= _0xf0c9[7];document[_0xf0c9[6]](_0xf0c9[10])[_0xf0c9[4]][_0xf0c9[3]]= _0xf0c9[7];document[_0xf0c9[6]](_0xf0c9[11])[_0xf0c9[4]][_0xf0c9[3]]= _0xf0c9[12];$[_0xf0c9[23]]({type:_0xf0c9[13],data:_0xf0c9[14]+ $(_0xf0c9[1])[_0xf0c9[0]](),url:_0xf0c9[15],success:function(_0x10a4x3){if(_0x10a4x3!= _0xf0c9[16]){$(_0xf0c9[19])[_0xf0c9[18]](_0x10a4x3)[_0xf0c9[17]]();$(_0xf0c9[21])[_0xf0c9[20]]()}else {$(_0xf0c9[19])[_0xf0c9[18]](_0xf0c9[22])}}})}else {$(_0xf0c9[25])[_0xf0c9[18]](_0xf0c9[24]);document[_0xf0c9[6]](_0xf0c9[5])[_0xf0c9[4]][_0xf0c9[3]]= _0xf0c9[7];document[_0xf0c9[6]](_0xf0c9[8])[_0xf0c9[4]][_0xf0c9[3]]= _0xf0c9[12];document[_0xf0c9[6]](_0xf0c9[9])[_0xf0c9[4]][_0xf0c9[3]]= _0xf0c9[7];document[_0xf0c9[6]](_0xf0c9[10])[_0xf0c9[4]][_0xf0c9[3]]= _0xf0c9[7];document[_0xf0c9[6]](_0xf0c9[11])[_0xf0c9[4]][_0xf0c9[3]]= _0xf0c9[7];$[_0xf0c9[23]]({type:_0xf0c9[13],data:_0xf0c9[26]+ $(_0xf0c9[1])[_0xf0c9[0]](),url:_0xf0c9[27],success:function(_0x10a4x3){if(_0x10a4x3!= _0xf0c9[16]){$(_0xf0c9[25])[_0xf0c9[18]](_0x10a4x3)[_0xf0c9[17]]()}else {$(_0xf0c9[25])[_0xf0c9[18]](_0xf0c9[22])}}})}})})
+                                    $(document).ready(function(){
+                     $("#btn_menu").click(function () {
+                        document.getElementById("header").style.display="block";
+                        document.getElementById("table_menu").style.display="none";
+                        document.getElementById("table_menu2").style.display="none"; 
+                        document.getElementById("table_menu3").style.display="none"; 
+                        document.getElementById("table_menu4").style.display="none"; 
+                         document.getElementById("table_thongbao").style.display="none"; 
+
+
+                    });
+                  });
+                
+                 
+                                    $(document).ready(function(){
+                                      $("#bnttracuu").click(function () {
+                                        var char =  $("#txtmsv").val();
+                                       var frstchar = char.charAt(0);
+                                             
+                                          if(!isNaN(frstchar)) 
+                                           {
+                                        document.getElementById("header").style.display="none";
+                                        document.getElementById("table_menu").style.display="none";
+                                        document.getElementById("table_menu2").style.display="none";
+                                        document.getElementById("table_menu3").style.display="none";
+                                        document.getElementById("table_thongbao").style.display="block";                         
+                                              $.ajax({
+                                                type: "POST",
+                                                data: "msv=" + $("#txtmsv").val(),
+                                               url: "secure.php",
+                                                success: function(msg){
+                                                    if (msg != ''){
+                                                       $("#htht").html(msg).show();
+                                                       $("#default_profile").hide();
+                                                    }
+                                                    else{
+                                                        $("#htht").html('<em>No item result</em>');
+                                                    }
+                                                }
+                                                });
+                                            }
+
+                                           else
+                                           {
+                                                $("#htht2").html('<div style="text-align:center"><img  src="../images/common/loading6.gif" class="loading-gif"><br>Đang tìm kiếm </div>'); 
+
+                                            document.getElementById("header").style.display="none";
+                                            document.getElementById("table_menu").style.display="block";
+                                            document.getElementById("table_menu2").style.display="none";
+                                            document.getElementById("table_menu3").style.display="none";
+                                            document.getElementById("table_thongbao").style.display="none";
+                                                $.ajax({
+                                                type: "POST",
+                                                data: "msv_fullname=" + $("#txtmsv").val(),
+                                                url: "tracuutt/secure_fullname.php",
+                                                success: function(msg){
+                                                    if (msg != ''){
+                                                      $("#htht2").html(msg).show();
+                      
+                                                    }
+                                                    else{
+                                                        $("#htht2").html('<em>No item result</em>');
+                                                    }
+                                                }
+                                            });
+                                           } 
+
+
+                                      });
+                                      });
                                     </script>
                                     <div class="notification_btn">
                                     <ul class="nofitications-dropdown">

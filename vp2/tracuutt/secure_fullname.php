@@ -127,7 +127,7 @@ $result= Get_arrayservice_hoten(trim($array_hoten['firstname']),trim($array_hote
                        
                             <tr class="gradeX">
                                     <td align='center' class="center"><?php echo $i+1; ?></td> 
-                                    <td align='center' class="center"><a href="#" id="masinhvien" name="msv2"><?php echo $result['MaSinhVien']; ?></a>
+                                    <td align='center' class="center"><?php echo $result['MaSinhVien']; ?>
                                     <input hidden="true" class="required" id="txt_msv" name="txtmsv" type="text"  value="<?php echo trim($result['MaSinhVien']);?>"  />
                                     </td>
                                     <td align='center' class="center"><?php echo $result['HoDem']." ".$result['Ten'] ; ?></td>
