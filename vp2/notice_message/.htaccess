@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteRule ([a-zA-Z0-9_-]+).html$ ../notice_message/detail_notice.php?categories_id=$1&belongto=$2&notice_id=$3&title=$4
+
+

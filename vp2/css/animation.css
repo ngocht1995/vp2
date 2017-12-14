@@ -1,0 +1,67 @@
+.market-updates{
+    
+    position: relative;
+    -webkit-animation-name: main; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    animation-name: main;
+    animation-duration: 1s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes main {
+    
+    0%  {left:2000px; top:0px;}
+    25%  {left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes main {
+
+    0%  { left:2000px; top:0px;}
+    25%  { left:0px; top:0px;}
+}
+
+.sidebar-menu{
+    -webkit-animation-name: sidebar; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    animation-name: sidebar;
+    animation-duration: 1s;
+}
+
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes sidebar {
+    
+    75%  { left:100px; bottom:2000px;}
+    100% {left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes sidebar {
+     75%  { left:100px; bottom:2000px;}
+    100% {left:0px; top:0px;}
+}
+
+.header-main{
+    -webkit-animation-name: header; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    animation-name: header;
+    animation-duration: 1s;
+}
+
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes header {
+     0%  {left:0px; top:0px;}
+    25%  {left:1000px; top:0px;}
+    50% {left:1000px; top:1000px;}
+    /* 100%  {left:0px; top:0px;} */
+}
+
+/* Standard syntax */
+@keyframes header {
+     0%  {left:0px; top:0px;}
+    25%  {left:1000px; top:0px;}
+    50% {right:1000px; top:1000px;}
+    /* 100%  {right:0px; top:0px;} */
+}

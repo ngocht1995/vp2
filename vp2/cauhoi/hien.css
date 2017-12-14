@@ -1,0 +1,28 @@
+/* 
+    Document   : hien
+    Created on : Dec 18, 2012, 4:16:00 PM
+    Author     : Superman
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+.pre-spoiler {
+border: 1px solid #005F96;
+margin: 0 15px 5px 15px;
+background: #DEEAEF;
+padding: 3px 5px 3px 5px;
+font-weight: bold;
+text-align: right;
+color: #5A6373;
+}
+
+.spoiler {
+margin: 0 15px 15px 15px;
+padding: 5px;
+height: auto;
+
+} 

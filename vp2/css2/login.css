@@ -1,0 +1,51 @@
+/*------------BEGINLOGIN*--------------------*/
+/*---------------------- begin#login*---------------------------*/
+div#primarylogin {
+
+ background-position: center center;
+ height:300px;
+
+		}
+
+div#noidunglogin {
+   width:650px;
+   margin-left: 120px;
+   border: 1px slategrey solid;
+   box-shadow: 10px 10px 5px #888888;
+   margin-top: 30px;
+
+}
+div#noidunglogin h2.dangnhaphethong  {
+    text-shadow: black 0.1em 0.1em 0.2em
+    
+}
+
+.txtlogin {
+    color: #000;
+}
+#questionlogin {
+	padding-left:200px;
+}
+#questionlogin p {
+	padding:3px 0px 3px 0px;
+}
+p.prow {
+	margin-left:110px;
+}
+#quenmatkhau {
+        color:navy;
+	
+}
+#dangkythanhvien {
+		color:#bababa;
+		font-weight:600;
+
+}
+#tbllogin {
+	margin:5px 0px 5px 0px;
+}
+.spanlogin {
+	margin-left:5px;
+        color:#111110;
+}
+/*-------------- end login------------------------*/

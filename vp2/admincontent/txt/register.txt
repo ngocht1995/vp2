@@ -1,0 +1,23 @@
+Subject: Thong tin tai khoan  - <!--$Subject-->
+From: <!--$From-->
+To: <!--$To-->
+Cc:
+Bcc:
+Format: TEXT
+
+Kính gửi Ông/Bà,
+
+Cảm ơn Ông/Bà đã sử dụng dịch vụ của chúng tôi.Sau đây là thông tin đăng ký tài khoản tại Sàn giao dịch thương mại điện tử Tỉnh Đồng Tháp:
+
+Tên công ty: <!--ten_congty-->
+
+Họ và tên: <!--hoten_nguoilienhe-->
+
+Tên đăng nhập: <!--tendangnhap-->
+
+Mật khẩu: <!--mat_khau-->
+Link kích hoạt tài khoản:http://da191.vn/htsv/admincontent/activation.php?acc=<!--tendangnhap--> 
+
+
+Best Regards,
+Support

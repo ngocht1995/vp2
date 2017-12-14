@@ -1,0 +1,19 @@
+Subject: Cap lai mat khau - <!--$Subject-->
+From: <!--$From-->
+To: <!--$To-->
+Cc:
+Bcc:
+Format: TEXT
+
+Kỉnh gửi Ông/Bà,
+
+Tài khoản đăng nhập của Ông/Bà là:
+
+Tên đăng nhập: <!--$UserName-->
+Mật khẩu: <!--$Password-->
+
+Hãy đổi lại mật khẩu sau khi đăng nhập thành công.
+
+Best Regards,
+Support
+

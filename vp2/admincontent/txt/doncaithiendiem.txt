@@ -1,0 +1,19 @@
+Subject: Đơn xin cải thiện điểm - <!--$Subject-->
+From: <!--$From-->
+To: <!--$To-->
+Cc:
+Bcc:
+Format: TEXT
+
+Thông báo từ hệ thống Văn phòng hỗ trợ sinh viên
+
+Với đơn xin cải thiện của bạn :
+
+Chúng tôi xin thông báo: <!--$Noidung-->
+
+Liên hệ trực tiếp Văn phòng hỗ trợ sinh viên để được hỗ trợ tốt nhất .
+
+Trường Đại học Dân lập Hải Phòng - Haiphong Private University
+Địa chỉ: Số 36 - Đường Dân Lập - Phường Dư Hàng Kênh - Quận Lê Chân - TP Hải Phòng
+Điện thoại: 031 3740577 - 031 3833802 - 031 3740578  Fax: 031.3740476  Email: webmaster@hpu.edu.vn
+

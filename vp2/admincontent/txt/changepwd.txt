@@ -1,0 +1,15 @@
+Subject: Thay doi mat khau  - <!--$Subject-->
+From: <!--$From-->
+To: <!--$To-->
+Cc:
+Bcc:
+Format: TEXT
+
+Kính gửi Ông/Bà,
+
+Mật khẩu tài khoản của Ông/Bà đã được thay đổi:
+
+Mật khẩu: <!--$Password-->
+
+Best Regards,
+Support

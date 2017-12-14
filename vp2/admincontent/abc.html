@@ -1,0 +1,99 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>VĂN PHÒNG HỖ TRỢ SINH VIÊN</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+<script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="js/ewp6.js"></script>
+<div class="ewLayout">
+  <div>
+      <table cellspacing="0" class="ewContentTable" style="padding-left: 10px;" >
+<tr>
+	    <td class="ewContentColumn" >
+			<!-- right column (begin) -->
+				<p class="phpmaker"><b></b></p>
+
+<script type="text/javascript" src="ckeditor/ckeditor.js"></script>
+<script type="text/javascript">
+<!--
+_width_multiplier = 16;
+_height_multiplier = 60;
+var ew_DHTMLEditors = [];
+
+// update value from editor to textarea
+function ew_UpdateTextArea() {
+	if (typeof ew_DHTMLEditors != 'undefined' && typeof CKEDITOR != 'undefined') {
+			var inst;
+		for (inst in CKEDITOR.instances)
+			CKEDITOR.instances[inst].updateElement();
+	}
+}
+
+// update value from textarea to editor
+function ew_UpdateDHTMLEditor(name) {
+	if (typeof ew_DHTMLEditors != 'undefined' && typeof CKEDITOR != 'undefined') {
+		var inst = CKEDITOR.instances[name];
+		if (inst)
+			inst.setData(inst.element.value);
+	}
+}
+
+// focus editor
+function ew_FocusDHTMLEditor(name) {
+	if (typeof ew_DHTMLEditors != 'undefined' && typeof CKEDITOR != 'undefined') {
+		var inst = CKEDITOR.instances[name];
+		if (inst)
+			inst.focus();
+		}
+	}
+
+
+//-->
+</script>
+<form name="fintro_articleadd" id="fintro_articleadd" action="intro_articleadd.php" method="post"  enctype="multipart/form-data" onsubmit="return intro_article_add.ValidateForm(this);">
+<table cellspacing="0" class="ewTable">
+
+	<tr>
+		<td class="ewTableHeader">Nội dung<span class="ewRequired">&nbsp;</span></td>
+		<td><span id="el_noidung_baiviet">
+<textarea name="x_noidung_baiviet" id="x_noidung_baiviet" cols="50" rows="7"></textarea>
+
+<script type="text/javascript">
+<!--
+ew_DHTMLEditors.push(new ew_DHTMLEditor("x_noidung_baiviet", function() {
+	var oCKeditor = CKEDITOR.replace('x_noidung_baiviet', { width: 45*_width_multiplier, height: 4*_height_multiplier, autoUpdateElement: false, baseHref: 'ckeditor/'});
+	this.active = true;
+}));
+-->
+</script>
+
+</span></td>
+	</tr>
+
+</table>
+</form>
+<script type="text/javascript">
+<!--
+ew_CreateEditor();  // Create DHTML editor(s)
+
+//-->
+</script>
+
+                                <p>&nbsp;</p>
+                        <!-- right column (end) -->
+            </td>
+                </tr>
+        </table>
+
+        </div>
+        <!-- content (end) -->
+        <!-- footer (begin) --><!-- *** Note: Only licensed users are allowed to remove or change the following copyright statement. *** -->
+</div>
+
+<!--endpage_--> </div>
+
+</body>
+
+</html>

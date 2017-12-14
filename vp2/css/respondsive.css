@@ -1,0 +1,3981 @@
+body {margin:0}
+
+
+
+
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.active {
+    background-color: #ca6600 !important;  
+}
+
+.title{
+    position: relative;
+    left:70px;
+    bottom: 900px;
+    color:white;
+    max-width: 300px;
+}
+
+ body,html{
+     background-image: url("../images/background7.jpg");
+   background-size: 100%;
+}
+    
+body {
+  background: #eee;
+  font: 12px Lucida sans, Arial, Helvetica, sans-serif;
+    color: #333;
+    text-align: center;
+      background-image: url("../images/background7.jpg");
+   background-size: 100%;
+}
+
+a {
+    color: #2A679F;
+}
+/*========*/
+
+
+
+.form-wrapper #txtmsv {
+    border-radius: 10px;
+    color: #e7f8ff;
+    font-weight: bold;
+    float: left;
+    padding: 10px;   
+    height:10px;
+    background-color: #393939;
+}
+
+.form-wrapper #txtmsv:focus {
+  
+    box-shadow: 0 inset;
+    outline: 0;
+}
+
+.form-wrapper #txtmsv:-moz-placeholder,
+.form-wrapper #txtmsv:-ms-input-placeholder,
+.form-wrapper #txtmsv:-webkit-input-placeholder {
+    color: #999;
+    font-weight: normal;
+}
+
+.form-wrapper #bnttracuu {
+    background-color:  #393939;
+    cursor: pointer;
+    height: 30px;
+    float: left;
+    font: 15px Arial, Helvetica;
+    padding: 0;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 rgba(0, 0 ,0, .3);
+    position: relative;
+    right:50px;
+
+}
+
+.form-wrapper #bnttracuu:hover,
+.form-wrapper #bnttracuu:focus {
+    background-color: #c2c2c2;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#505050), to(#c2c2c2));
+    background-image: -webkit-linear-gradient(top, #505050, #c2c2c2);
+    background-image: -moz-linear-gradient(top, #505050, #c2c2c2);
+    background-image: -ms-linear-gradient(top, #505050, #c2c2c2);
+    background-image: -o-linear-gradient(top, #505050, #c2c2c2);
+    background-image: linear-gradient(top, #505050, #c2c2c2);
+}
+
+.form-wrapper #bnttracuu:active {
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+    outline: 0;
+}
+
+.form-wrapper #bnttracuu::-moz-focus-inner {
+    border: 0;
+}
+
+
+
+.form-wrapper #txthoten {
+    border-radius: 10px;
+    color: #e7f8ff;
+    font-weight: bold;
+    float: left;
+    padding: 10px;   
+    height:10px;
+    background-color: #393939;
+}
+
+.form-wrapper #txthoten:focus {
+  
+    box-shadow: 0 inset;
+    outline: 0;
+}
+
+.form-wrapper #txthoten:-moz-placeholder,
+.form-wrapper #txthoten:-ms-input-placeholder,
+.form-wrapper #txthoten:-webkit-input-placeholder {
+    color: #999;
+    font-weight: normal;
+}
+
+.form-wrapper #bnttracuu_tensinhvien {
+    background-color:  #393939;
+    cursor: pointer;
+    height: 30px;
+    float: left;
+    font: 15px Arial, Helvetica;
+    padding: 0;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 rgba(0, 0 ,0, .3);
+    width: 50x;
+    position: relative;
+    right:50px;
+
+}
+
+.form-wrapper #bnttracuu_tensinhvien:hover,
+.form-wrapper #bnttracuu_tensinhvien:focus {
+    background-color: #c2c2c2;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#505050), to(#c2c2c2));
+    background-image: -webkit-linear-gradient(top, #505050, #c2c2c2);
+    background-image: -moz-linear-gradient(top, #505050, #c2c2c2);
+    background-image: -ms-linear-gradient(top, #505050, #c2c2c2);
+    background-image: -o-linear-gradient(top, #505050, #c2c2c2);
+    background-image: linear-gradient(top, #505050, #c2c2c2);
+}
+
+.form-wrapper #bnttracuu_tensinhvien:active {
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+    outline: 0;
+}
+
+.form-wrapper #bnttracuu_tensinhvien:-moz-focus-inner {
+    border: 0;
+}
+
+.required{
+    height: 33px;
+    width: 300px;
+}
+
+
+    input{border-radius: 15px;position: relative;bottom: 3px}
+    select{border-radius: 15px;}
+    .tbl_bangdiem{
+        background-color:rgba(71, 93, 119, 0.75);
+        width: 80%;
+        border-radius: 50px;
+        color:white;
+    }
+     .bangdiem{
+        position: relative;
+        bottom:500px;
+        right:500px;
+    }
+     .bangdiem_sl{
+    width: 150px;
+    font-weight:bold;
+    color:white;
+    border-radius: 25px;
+    background-color: #393939;
+    }
+    table.display{
+        width:80%;
+        color:white;
+    }
+    .export{
+        padding:30px 0px 10px 0px;
+         position: relative;
+        top:35px;
+        height: 150px;
+    }
+   /* .thongtin{
+    position: relative;
+    bottom:1000px;
+    left:400px;
+    border-radius: 15px 50px 30px;
+    max-width: 500px;
+    max-height: 300px;
+    background-image:url('../images/anhthe.jpg');
+    background-size:100%;
+}*/
+
+@media (min-width: 1025px) 
+ {
+    /* .page-container{
+        width:100%;
+    }*/
+     input{border-radius: 15px; font-size: 15px;}
+    select{border-radius: 15px;}
+      .dropbtn{
+     padding: 8px;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 170px;
+    height:70px;
+    color:white;
+  }
+  .dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0px;
+    background-color: #f9f9f9;
+    width: 170px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 15px;
+    background-color: rgb(255, 136, 34);
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+   border-radius: 15px;
+}
+ .dropdown-content a:hover {background-color: #1b3b4d}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+  .dropmenu1{
+    position: relative;
+    bottom: 110px;
+    right:150px;
+
+  }
+  .dropmenu2{
+    position: relative;
+    bottom: 180px;
+    left:40px;
+  }
+  .dropmenu3{
+    position: relative;
+    bottom: 250px;
+    left: 230px;
+
+  }.dropmenu4{
+    position: relative;
+    bottom: 320px;
+    left: 420px;
+  }
+  .dropmenu5{
+    position: relative;
+    bottom: 0px;
+    left:200px;
+  }
+    .required{
+        position: relative;
+        top: 0px;
+    }
+    .bangdiem{
+        position: relative;
+        bottom:800px;
+        left:20px;
+        width: 50%;
+
+    }
+    .tbl_bangdiem{
+        position: relative;
+        left:0;
+        bottom: 800px;
+    }
+    .chart{
+        height: 50%;
+
+    }
+
+     div#result.tbl_bangdiem{
+        position: relative;
+        left:150px;
+        background-color:rgba(71, 93, 119, 0.75);
+        width: 80%;
+        border-radius: 15px;
+        color:white;
+    }
+     div#abc.tbl_bangdiem{
+        position: relative;
+        left:150px;
+        background-color:rgba(71, 93, 119, 0.75);
+        width: 80%;
+        border-radius: 15px;
+        color:white;
+    }
+    
+    table#allan.display.dataTable{
+        width:100%;
+        font-size: 15px;
+        color:white;
+        position: relative;
+    }
+    table.display{
+        padding-left:10px;
+        font-size: 15px;
+        padding-right:10px;
+    }
+    .center{
+        color:black;
+    }
+
+    .bangdiem_sl{   
+    font-size: 15px;
+    width: 50%;
+     }
+     .dataTables_filter{
+        font-size: 13px;
+     }
+
+    .dataTables_length{
+    font-size: 13px;
+}
+
+table.display thead th {
+    padding: 0;
+}
+
+    .export{
+        padding:30px 0px 10px 0px;
+         position: relative;
+         top:35px;
+        height: 50px;
+        width: 50%;
+        left:220px;
+    }
+    table.display td{
+        padding: 0px;
+    }
+    .dataTables_paginate{
+        position: relative;
+        left:10px;
+        top:25px;
+        font-size: 15px;
+       
+    }
+     .icon-bar{
+    position: relative;
+    bottom: 280px;
+    height: 320px;
+    left:0px;
+    width: 50px;
+     background-color: #555;
+    border-radius: 25px;
+    }
+    .icon-bar a{
+     display: block;
+    text-align: center;
+    padding: 16px ;
+    transition: all 0.3s ease;
+    color: white;
+        font-size: 20px;
+    
+    }
+
+    .title{
+        position: relative;
+        bottom: 580px;
+        left:80px;
+        font-size: 20px;
+        
+    }
+    .sub-title{
+        font-size: 18px;
+    }
+
+     i{
+        font-size: 15px;
+    }
+    p{
+        font-size: 13px;
+    }
+   html{
+      background-image: none;
+    }
+  body {
+      font: 12px Lucida sans, Arial, Helvetica, sans-serif;
+        color: #333;
+        text-align: center;
+         background-image: url("../images/background7.jpg");
+}
+ .form-wrapper {
+    margin: 100px auto;
+    overflow: hidden;
+    position: relative;
+    bottom: 700px;
+    left: 350px;
+    width: 40%;
+}
+.required{
+    height: 33px;
+    width: 50%;
+}
+.form-wrapper #bnttracuu {
+    background-color:  #393939;
+    cursor: pointer;
+    height: 20px;
+    float: left;
+    font: 15px Arial, Helvetica;
+    padding: 0;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 rgba(0, 0 ,0, .3);
+    position: relative;
+    right:30px;
+    top: 2px;
+
+}
+.form-wrapper #bnttracuu_tensinhvien {
+    background-color:  #393939;
+    cursor: pointer;
+    height: 20px;
+    float: left;
+    font: 15px Arial, Helvetica;
+    padding: 0;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 rgba(0, 0 ,0, .3);
+    width: 50x;
+    position: relative;
+    right:30px;
+    top: 2px;
+
+}
+.labeltimkiem{
+    color:blue;
+    position: relative;
+    top:30px;
+    right:260px;
+    font-size: 12px;
+}
+.error{
+    position: relative;
+    bottom: 800px;
+    left:300px;
+    background-color: #94c1c7;
+    border-radius: 25px;
+    width: 50%;
+} 
+.error_picture{
+    height: 240px;
+    width:350px;
+    border-radius: 15px;
+}   
+.notice{
+    position: relative;
+    bottom: 800px;
+    left:300px;
+    background-color: white;
+    border-radius: 25px;
+    width: 50%;
+}
+.notice_picture{
+    height: 360px;
+    width:620px;
+    border-radius: 15px;
+} 
+.thongtin{
+    position: relative;
+    bottom:700px;
+    left: 400px;
+    border-radius: 15px;
+    max-width: 420px;
+    max-height: 250px;
+    background-image:url('../images/anhthe.jpg');
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+.anhthe{
+    width: 130px;
+    height:170px;
+    position: relative;
+    right:120px;
+    border-radius: 15px;
+    border:solid black; 
+    top:10px;
+}
+.sinhvien{
+    position: relative;
+    bottom:120px;
+    left:190px;
+    font-size: 13px;
+}
+.hoten{
+    font-size: 20px;
+}
+.msv{
+position: relative;
+top:20px;
+right:120px;
+color:white;
+}
+.gif{
+    width: 50%;
+    margin-top:100px;
+    position:relative;
+    bottom:750px;
+    left:300px;
+    color:white;
+    font-size:30px;
+    border-radius:25px;
+    background-color:#93aad8;
+}
+}
+
+@media (max-width: 1024px) 
+ {
+    /* .page-container{
+        width:1024px;
+    }*/
+     input{border-radius: 15px; font-size: 15px;}
+    select{border-radius: 15px;}
+      .dropbtn{
+     padding: 8px;
+    font-size: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 120px;
+    height:60px;
+    color:white;
+  }
+  .dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0px;
+    background-color: #f9f9f9;
+    width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 15px;
+    background-color: rgb(255, 136, 34);
+    width: 120px;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 12px;
+   border-radius: 15px;
+}
+ .dropdown-content a:hover {background-color: #1b3b4d}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+  .dropmenu1{
+    position: relative;
+    bottom: 110px;
+    right:150px;
+
+  }
+  .dropmenu2{
+    position: relative;
+    bottom: 170px;
+    right:20px;
+  }
+  .dropmenu3{
+    position: relative;
+    bottom: 230px;
+    left: 110px;
+
+  }.dropmenu4{
+    position: relative;
+    bottom: 290px;
+    left: 240px;
+  }
+  .dropmenu5{
+    position: relative;
+    bottom: 50px;
+    right:50px;
+  }
+    .required{
+        position: relative;
+        top: 0px;
+    }
+    .bangdiem{
+        position: relative;
+        bottom:600px;
+        left:20px;
+        width: 50%;
+
+    }
+    .tbl_bangdiem{
+        position: relative;
+        left:0;
+        bottom: 600px;
+    }
+    .chart{
+        height: 50%;
+
+    }
+
+     div#result.tbl_bangdiem{
+        position: relative;
+        right:100px;
+        background-color:rgba(71, 93, 119, 0.75);
+        width: 100%;
+        border-radius: 15px;
+        color:white;
+    }
+     div#abc.tbl_bangdiem{
+        position: relative;
+        right:100px;
+        background-color:rgba(71, 93, 119, 0.75);
+        width: 100%;
+        border-radius: 15px;
+        color:white;
+    }
+    tbody{
+      /* font-size: 8px;*/
+    }
+    table#allan.display.dataTable{
+        width:100%;
+        font-size: 15px;
+        color:white;
+        position: relative;
+    }
+    table.display{
+        font-size: 15px;
+    }
+    .center{
+        color:black;
+    }
+
+    .bangdiem_sl{   
+    font-size: 15px;
+    width: 50%;
+     }
+     .dataTables_filter{
+        font-size: 13px;
+     }
+
+    .dataTables_length{
+    font-size: 13px;
+}
+
+table.display thead th {
+    padding: 0;
+}
+
+    .export{
+        padding:30px 0px 10px 0px;
+         position: relative;
+         top:35px;
+        height: 50px;
+        width: 50%;
+        left:180px;
+    }
+    table.display td{
+        padding: 0px;
+    }
+    .dataTables_paginate{
+        position: relative;
+        left:10px;
+        top:25px;
+        font-size: 15px;
+       
+    }
+     .icon-bar{
+    position: relative;
+    bottom: 240px;
+    height: 320px;
+    width: 23px;
+     background-color: #555;
+    padding-left: 10px;
+    border-radius: 25px;
+    position: relative;
+    }
+    .icon-bar a{
+     display: block;
+    text-align: center;
+    padding: 16px 16px 16px 6px;
+    transition: all 0.3s ease;
+    color: white;
+        padding-right: 26px;
+        font-size: 20px;
+        position: relative;
+        right:10px;
+    }
+
+    .title{
+        position: relative;
+        bottom: 550px;
+        left:50px;
+        width: 170px;
+        font-size: 20px;
+        
+    }
+    .sub-title{
+        font-size: 18px;
+    }
+
+     i{
+        font-size: 15px;
+    }
+    p{
+        font-size: 8px;
+    }
+   html{
+      background-image: none;
+    }
+  body {
+      font: 12px Lucida sans, Arial, Helvetica, sans-serif;
+        color: #333;
+        text-align: center;
+         background-image: url("../images/background7.jpg");
+}
+ .form-wrapper {
+    margin: 100px auto;
+    overflow: hidden;
+    position: relative;
+    bottom: 650px;
+    right: 180px;
+    width: 40%;
+}
+.required{
+    height: 33px;
+    width: 50%;
+}
+.form-wrapper #bnttracuu {
+    background-color:  #393939;
+    cursor: pointer;
+    height: 20px;
+    float: left;
+    font: 15px Arial, Helvetica;
+    padding: 0;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 rgba(0, 0 ,0, .3);
+    position: relative;
+    right:30px;
+    top: 2px;
+
+}
+.form-wrapper #bnttracuu_tensinhvien {
+    background-color:  #393939;
+    cursor: pointer;
+    height: 20px;
+    float: left;
+    font: 15px Arial, Helvetica;
+    padding: 0;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 rgba(0, 0 ,0, .3);
+    width: 50x;
+    position: relative;
+    right:30px;
+    top: 2px;
+
+}
+.labeltimkiem{
+    color:white;
+    position: relative;
+    right:160px;
+    top:30px;
+    font-size: 12px;
+}
+.error{
+    position: relative;
+    bottom: 800px;
+    left:300px;
+    background-color: #94c1c7;
+    border-radius: 25px;
+    width: 50%;
+} 
+.error_picture{
+    height: 240px;
+    width:350px;
+    border-radius: 15px;
+}   
+.notice{
+    position: relative;
+    bottom: 800px;
+    left:300px;
+    background-color: white;
+    border-radius: 25px;
+    width: 50%;
+}
+.notice_picture{
+    height: 240px;
+    width:350px;
+    border-radius: 15px;
+} 
+.thongtin{
+    position: relative;
+    bottom:800px;
+    left: 300px;
+    border-radius: 15px;
+    max-width: 420px;
+    max-height: 250px;
+    background-image:url('../images/anhthe.jpg');
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+.anhthe{
+    width: 130px;
+    height:170px;
+    position: relative;
+    right:120px;
+    border-radius: 15px;
+    border:solid black; 
+    top:10px;
+}
+.sinhvien{
+    position: relative;
+    bottom:120px;
+    left:190px;
+    font-size: 13px;
+}
+.hoten{
+    font-size: 20px;
+}
+.msv{
+position: relative;
+top:20px;
+right:120px;
+color:white;
+}
+.gif{
+    width: 70%;
+    margin-top:100px;
+    position:relative;
+    bottom:750px;
+    left:200px;
+    color:white;
+    font-size:30px;
+    border-radius:25px;
+    background-color:#93aad8;
+
+}
+}
+
+@media (max-width: 768px)
+ {
+     /*.page-container{
+        width:768px;
+    }*/
+     input{border-radius: 15px; font-size: 10px;}
+    select{border-radius: 15px;}
+      .dropbtn{
+     padding: 8px;
+    font-size: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100px;
+    height:60px;
+    color:white;
+  }
+  .dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 100px;
+    top: 0px;
+    background-color: #f9f9f9;
+    width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 15px;
+    background-color: rgb(255, 136, 34);
+    width: 120px;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+   border-radius: 15px;
+}
+ .dropdown-content a:hover {background-color: #1b3b4d}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+  .dropmenu1{
+    position: relative;
+    bottom: 110px;
+    left:80px;
+
+  }
+  .dropmenu2{
+    position: relative;
+    bottom: 100px;
+    left:80px;
+  }
+  .dropmenu3{
+/*    width: 10%;*/
+    position: relative;
+    bottom: 90px;
+    left: 80px;
+
+  }.dropmenu4{
+/*    width: 10%;*/
+    position: relative;
+    bottom:80px;
+    left: 80px;
+  }
+    .required{
+        position: relative;
+        top: 0px;
+    }
+    .bangdiem{
+        position: relative;
+        bottom:550px;
+        left:20px;
+        width: 70%;
+
+    }
+    .tbl_bangdiem{
+        position: relative;
+        left:0;
+        bottom: 550px;
+    }
+    .chart{
+        height: 50%;
+
+    }
+
+     div#result.tbl_bangdiem{
+        position: relative;
+        right:100px;
+        background-color:rgba(71, 93, 119, 0.75);
+        width: 100%;
+        border-radius: 15px;
+        color:white;
+    }
+     div#abc.tbl_bangdiem{
+        position: relative;
+        right:100px;
+        background-color:rgba(71, 93, 119, 0.75);
+        width: 130%;
+        border-radius: 15px;
+        color:white;
+    }
+    tbody{
+      /* font-size: 8px;*/
+    }
+    table#allan.display.dataTable{
+        width:100%;
+        font-size: 10px;
+        color:white;
+        position: relative;
+    }
+    table.display{
+        width: 50%;
+        font-size: 8px;
+    }
+    .center{
+        color:black;
+    }
+
+    .bangdiem_sl{   
+    font-size: 10px;
+    width: 50%;
+     }
+     .dataTables_filter{
+        font-size: 10px;
+     }
+
+    .dataTables_length{
+    font-size: 10px;
+}
+
+table.display thead th {
+    padding: 0;
+}
+
+    .export{
+        padding:30px 0px 10px 0px;
+         position: relative;
+         top:35px;
+        height: 50px;
+        width: 50%;
+        left:100px;
+    }
+    table.display td{
+        padding: 0px;
+    }
+    .dataTables_paginate{
+        position: relative;
+         right:20px;
+        top:25px;
+        font-size: 15px;
+       
+    }
+     .icon-bar{
+    position: relative;
+    bottom: 245px;
+    height: 280px;
+    width: 6.5% ;
+     background-color: #555;
+    padding-left: 10px;
+    border-radius: 25px;
+    }
+    .icon-bar a{
+     display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+        padding-right: 26px;
+        font-size: 13px;
+        position: relative;
+        right:10px;
+    }
+
+    .title{
+        position: relative;
+        bottom: 520px;
+        left:50px;
+        width: 170px;
+        font-size: 13px;
+        
+    }
+    .sub-title{
+        font-size: 15px;
+    }
+
+     i{
+        font-size: 15px;
+    }
+    p{
+        font-size: 8px;
+    }
+   html{
+      background-image: none;
+    }
+  body {
+      font: 12px Lucida sans, Arial, Helvetica, sans-serif;
+        color: #333;
+        text-align: center;
+         background-image: url("../images/phone-background.jpg");
+         background-size: 150%;
+}
+ .form-wrapper {
+    margin: 100px auto;
+    overflow: hidden;
+    position: relative;
+    bottom: 600px;
+    right: 50px;
+    width: 60%;
+}
+.required{
+    height: 33px;
+    width: 50%;
+}
+.form-wrapper #bnttracuu {
+    background-color:  #393939;
+    cursor: pointer;
+    height: 20px;
+    float: left;
+    font: 15px Arial, Helvetica;
+    padding: 0;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 rgba(0, 0 ,0, .3);
+    position: relative;
+    right:30px;
+    top: 2px;
+
+}
+.form-wrapper #bnttracuu_tensinhvien {
+    background-color:  #393939;
+    cursor: pointer;
+    height: 20px;
+    float: left;
+    font: 15px Arial, Helvetica;
+    padding: 0;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 rgba(0, 0 ,0, .3);
+    width: 50x;
+    position: relative;
+    right:30px;
+    top: 2px;
+
+}
+.labeltimkiem{
+    color:white;
+    position: relative;
+    right:150px;
+    top:30px;
+    font-size: 15px;
+}
+.error{
+    position: relative;
+    bottom: 500px;
+    background-color: #94c1c7;
+    border-radius: 25px;
+    width: 120%;
+} 
+.error_picture{
+    height: 240px;
+    width:350px;
+    border-radius: 15px;
+}   
+.notice{
+    position: relative;
+    bottom: 500px;
+    background-color: white;
+    border-radius: 25px;
+    width: 120%;
+}
+.notice_picture{
+    height: 240px;
+    width:350px;
+    border-radius: 15px;
+} 
+.thongtin{
+    position: relative;
+    bottom:500px;
+    left:0px;
+    border-radius: 13px;
+    max-width: 450px;
+    max-height: 270px;
+    background-image:url('../images/anhthe.jpg');
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+.anhthe{
+    width: 130px;
+    height:170px;
+    position: relative;
+    right:130px;
+    border-radius: 15px;
+    border:solid black; 
+    top:10px;
+}
+.sinhvien{
+    position: relative;
+    bottom:120px;
+    left:200px;
+    font-size: 15px;
+}
+.hoten{
+    font-size: 20px;
+}
+.msv{
+position: relative;
+top:20px;
+right:140px;
+color:white;
+}
+
+.gif{
+    width: 50%;
+    margin-top:100px;
+    position:relative;
+    bottom:500px;
+    left:0;
+    color:white;
+    font-size:15px;
+    border-radius:25px;
+    background-color:#93aad8;
+}
+
+}
+
+@media (max-width: 736px)
+{
+    .page-container{
+       width:736px;
+   }
+    input{border-radius: 15px; font-size: 10px;z-index:1}
+   select{border-radius: 15px;}
+     .dropbtn{
+    padding: 8px;
+   font-size: 8px;
+   border-radius: 10px;
+   cursor: pointer;
+   width: 100px;
+   height:60px;
+   color:white;
+ }
+ .dropdown {
+   display: inline-block;
+}
+
+.dropdown-content {
+   display: none;
+   position: absolute;
+   right: 100px;
+   top: 0px;
+   background-color: #f9f9f9;
+   width: 180px;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   z-index: 1;
+   border-radius: 15px;
+   background-color: rgb(255, 136, 34);
+   width: 120px;
+}
+
+.dropdown-content a {
+   color: white;
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+   font-size: 15px;
+  border-radius: 15px;
+}
+.dropdown-content a:hover {background-color: #1b3b4d}
+
+.dropdown:hover .dropdown-content {
+   display: block;
+}
+
+.dropdown:hover .dropbtn {
+   background-color: #3e8e41;
+}
+
+ .dropmenu1{
+   position: relative;
+   bottom: 110px;
+   left:200px;
+   z-index:2;
+
+ }
+ .dropmenu2{
+   position: relative;
+   bottom: 100px;
+   left:200px;
+   z-index:2;
+ }
+ .dropmenu3{
+/*    width: 10%;*/
+   position: relative;
+   bottom: 90px;
+   left: 200px;
+   z-index:1;
+ }
+ .dropmenu4{
+/*    width: 10%;*/
+   position: relative;
+   bottom:80px;
+   left: 200px;
+   z-index:1;
+ }
+   .required{
+       position: relative;
+       top: 0px;
+   }
+   .bangdiem{
+       position: relative;
+       bottom:550px;
+       left:20px;
+       width: 70%;
+
+   }
+   .tbl_bangdiem{
+       position: relative;
+       left:0;
+       bottom: 550px;
+   }
+   .chart{
+       height: 50%;
+
+   }
+
+    div#result.tbl_bangdiem{
+       position: relative;
+       right:100px;
+       background-color:rgba(71, 93, 119, 0.75);
+       width: 100%;
+       border-radius: 15px;
+       color:white;
+   }
+    div#abc.tbl_bangdiem{
+       position: relative;
+       right:100px;
+       background-color:rgba(71, 93, 119, 0.75);
+       width: 100%;
+       border-radius: 15px;
+       color:white;
+   }
+   
+   table#allan.display.dataTable{
+       width:100%;
+       font-size: 15px;
+       color:white;
+       position: relative;
+   }
+   table.display{
+       font-size: 15px;
+   }
+   .center{
+       color:black;
+   }
+
+   .bangdiem_sl{   
+   font-size: 10px;
+   width: 50%;
+    }
+    .dataTables_filter{
+       font-size: 10px;
+    }
+
+   .dataTables_length{
+   font-size: 10px;
+}
+
+table.display thead th {
+   padding: 0;
+}
+
+   .export{
+       padding:30px 0px 10px 0px;
+        position: relative;
+        top:35px;
+       height: 50px;
+       width: 50%;
+       left:180px;
+   }
+   table.display td{
+       padding: 5px;
+   }
+   .dataTables_paginate{
+       position: relative;
+        right:20px;
+       top:25px;
+       font-size: 15px;
+      
+   }
+    .icon-bar{
+   position: relative;
+   bottom: 245px;
+   height: 280px;
+   width: 4.5%;
+    background-color: #555;
+   padding-left: 10px;
+   border-radius: 25px;
+   }
+   .icon-bar a{
+    display: block;
+   text-align: center;
+   padding: 16px;
+   transition: all 0.3s ease;
+   color: white;
+       padding-right: 26px;
+       font-size: 13px;
+       position: relative;
+       right:10px;
+   }
+
+   .title{
+       position: relative;
+       bottom: 520px;
+       left:50px;
+       width: 170px;
+       font-size: 13px;
+       
+   }
+   .sub-title{
+       font-size: 15px;
+   }
+
+    i{
+       font-size: 15px;
+   }
+   p{
+       font-size: 8px;
+   }
+  html{
+     background-image: none;
+   }
+ body {
+     font: 12px Lucida sans, Arial, Helvetica, sans-serif;
+       color: #333;
+       text-align: center;
+        background-image: url("../images/phone-background.jpg");
+        background-size: 150%;
+}
+.form-wrapper {
+   margin: 100px auto;
+   overflow: hidden;
+   position: relative;
+   bottom: 600px;
+   right: 50px;
+   width: 60%;
+}
+.required{
+   height: 33px;
+   width: 50%;
+}
+.form-wrapper #bnttracuu {
+   background-color:  #393939;
+   cursor: pointer;
+   height: 20px;
+   float: left;
+   font: 15px Arial, Helvetica;
+   padding: 0;
+   text-transform: uppercase;
+   text-shadow: 0 1px 0 rgba(0, 0 ,0, .3);
+   position: relative;
+   right:30px;
+   top: 2px;
+    z-index:1;
+}
+.form-wrapper #bnttracuu_tensinhvien {
+   background-color:  #393939;
+   cursor: pointer;
+   height: 20px;
+   float: left;
+   font: 15px Arial, Helvetica;
+   padding: 0;
+   text-transform: uppercase;
+   text-shadow: 0 1px 0 rgba(0, 0 ,0, .3);
+   width: 50x;
+   position: relative;
+   right:30px;
+   top: 2px;
+    z-index:1;
+}
+.labeltimkiem{
+   color:white;
+   position: relative;
+   right:230px;
+   top:30px;
+   font-size: 15px;
+}
+.error{
+   position: relative;
+   bottom: 500px;
+   left:0px;
+   background-color: #94c1c7;
+   border-radius: 25px;
+   width: 100%;
+} 
+.error_picture{
+   height: 400px;
+   width:100%px;
+   border-radius: 15px;
+}   
+.notice{
+   position: relative;
+   bottom: 55s0px;
+   left:0px;
+   background-color: white;
+   border-radius: 25px;
+   width: 100%;
+}
+.notice_picture{
+   height: 400px;
+   width:100%;
+   border-radius: 15px;
+} 
+.thongtin{
+   position: relative;
+   bottom:550px;
+   left:100px;
+   border-radius: 13px;
+   max-width: 450px;
+   max-height: 270px;
+   background-image:url('../images/anhthe.jpg');
+   background-size:100%;
+   background-repeat: no-repeat;
+}
+.anhthe{
+   width: 130px;
+   height:170px;
+   position: relative;
+   right:130px;
+   border-radius: 15px;
+   border:solid black; 
+   top:10px;
+}
+.sinhvien{
+   position: relative;
+   bottom:120px;
+   left:200px;
+   font-size: 15px;
+}
+.hoten{
+   font-size: 20px;
+}
+.msv{
+position: relative;
+top:20px;
+right:140px;
+color:white;
+}
+
+.gif{
+   width: 100%;
+   margin-top:100px;
+   position:relative;
+   bottom:500px;
+   left:0;
+   color:white;
+   font-size:15px;
+   border-radius:25px;
+   background-color:#93aad8;
+}
+
+}
+
+
+@media (max-width: 640px)
+ {
+     .page-container{
+        width:640px;
+    }
+     input{border-radius: 15px; font-size: 10px;}
+    select{border-radius: 15px;}
+      .dropbtn{
+     padding: 8px;
+    font-size: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100px;
+    height:60px;
+    color:white;
+  }
+  .dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 100px;
+    top: 0px;
+    background-color: #f9f9f9;
+    width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 15px;
+    background-color: rgb(255, 136, 34);
+    width: 120px;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+   border-radius: 15px;
+}
+ .dropdown-content a:hover {background-color: #1b3b4d}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+  .dropmenu1{
+    position: relative;
+    bottom: 110px;
+    left: 220px;
+
+  }
+  .dropmenu2{
+    position: relative;
+    bottom: 100px;
+    left: 220px;
+  }
+  .dropmenu3{
+/*    width: 10%;*/
+    position: relative;
+    bottom: 90px;
+    left: 220px;
+
+  }.dropmenu4{
+/*    width: 10%;*/
+    position: relative;
+    bottom:80px;
+    left: 220px;
+  }
+    .required{
+        position: relative;
+        top: 0px;
+    }
+    .bangdiem{
+        position: relative;
+        bottom:550px;
+        left:20px;
+        width: 70%;
+
+    }
+    .tbl_bangdiem{
+        position: relative;
+        left:0;
+        bottom: 550px;
+    }
+    .chart{
+        height: 50%;
+
+    }
+
+     div#result.tbl_bangdiem{
+        position: relative;
+        right:100px;
+        background-color:rgba(71, 93, 119, 0.75);
+        width: 100%;
+        border-radius: 15px;
+        color:white;
+    }
+     div#abc.tbl_bangdiem{
+        position: relative;
+        right:100px;
+        background-color:rgba(71, 93, 119, 0.75);
+        width: 100%;
+        border-radius: 15px;
+        color:white;
+    }
+    
+    table#allan.display.dataTable{
+        width:100%;
+        font-size: 15px;
+        color:white;
+        position: relative;
+    }
+    table.display{
+        font-size: 15px;
+    }
+    .center{
+        color:black;
+    }
+
+    .bangdiem_sl{   
+    font-size: 10px;
+    width: 50%;
+     }
+     .dataTables_filter{
+        font-size: 10px;
+     }
+
+    .dataTables_length{
+    font-size: 10px;
+}
+
+table.display thead th {
+    padding: 0;
+}
+
+    .export{
+        padding:30px 0px 10px 0px;
+         position: relative;
+         top:35px;
+        height: 50px;
+        width: 50%;
+        left:100px;
+    }
+    table.display td{
+        padding: 0px;
+    }
+    .dataTables_paginate{
+        position: relative;
+         right:20px;
+        top:25px;
+        font-size: 15px;
+       
+    }
+     .icon-bar{
+    position: relative;
+    bottom: 245px;
+    height: 280px;
+    width: 5%;
+     background-color: #555;
+    padding-left: 10px;
+    border-radius: 25px;
+    }
+    .icon-bar a{
+     display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+        padding-right: 26px;
+        font-size: 13px;
+        position: relative;
+        right:10px;
+    }
+
+    .title{
+        position: relative;
+        bottom: 520px;
+        left:50px;
+        width: 170px;
+        font-size: 13px;
+        
+    }
+    .sub-title{
+        font-size: 15px;
+    }
+
+     i{
+        font-size: 15px;
+    }
+    p{
+        font-size: 8px;
+    }
+   html{
+      background-image: none;
+    }
+  body {
+      font: 12px Lucida sans, Arial, Helvetica, sans-serif;
+        color: #333;
+        text-align: center;
+         background-image: url("../images/phone-background.jpg");
+         background-size: 150%;
+}
+ .form-wrapper {
+    margin: 100px auto;
+    overflow: hidden;
+    position: relative;
+    bottom: 600px;
+    right: 50px;
+    width: 60%;
+}
+.required{
+    height: 33px;
+    width: 50%;
+}
+.form-wrapper #bnttracuu {
+    background-color:  #393939;
+    cursor: pointer;
+    height: 20px;
+    float: left;
+    font: 15px Arial, Helvetica;
+    padding: 0;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 rgba(0, 0 ,0, .3);
+    position: relative;
+    right:30px;
+    top: 2px;
+
+}
+.form-wrapper #bnttracuu_tensinhvien {
+    background-color:  #393939;
+    cursor: pointer;
+    height: 20px;
+    float: left;
+    font: 15px Arial, Helvetica;
+    padding: 0;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 rgba(0, 0 ,0, .3);
+    width: 50x;
+    position: relative;
+    right:30px;
+    top: 2px;
+
+}
+.labeltimkiem{
+    color:white;
+    position: relative;
+    right:200px;
+    top:30px;
+    font-size: 15px;
+}
+.error{
+    position: relative;
+    bottom: 500px;
+    background-color: #94c1c7;
+    border-radius: 25px;
+    width: 100%;
+} 
+.error_picture{
+    height: 300px;
+    width:640px;
+    border-radius: 15px;
+}   
+.notice{
+    position: relative;
+    bottom: 500px;
+    background-color: white;
+    border-radius: 25px;
+    width: 100%;
+}
+.notice_picture{
+    height: 300px;
+    width:640px;
+    border-radius: 15px;
+} 
+.thongtin{
+    position: relative;
+    bottom:500px;
+    left:100px;
+    border-radius: 13px;
+    max-width: 450px;
+    max-height: 270px;
+    background-image:url('../images/anhthe.jpg');
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+.anhthe{
+    width: 130px;
+    height:170px;
+    position: relative;
+    right:130px;
+    border-radius: 15px;
+    border:solid black; 
+    top:10px;
+}
+.sinhvien{
+    position: relative;
+    bottom:120px;
+    left:200px;
+    font-size: 15px;
+}
+.hoten{
+    font-size: 20px;
+}
+.msv{
+position: relative;
+top:20px;
+right:140px;
+color:white;
+}
+
+.gif{
+    width: 100%;
+    margin-top:100px;
+    position:relative;
+    bottom:550px;
+    left:0;
+    color:white;
+    font-size:15px;
+    border-radius:25px;
+    background-color:#93aad8;
+}
+
+}
+
+@media (max-width: 568px)
+{
+    .page-container{
+       width:568px;
+   }
+    input{border-radius: 15px; font-size: 10px;}
+   select{border-radius: 15px;}
+     .dropbtn{
+    padding: 8px;
+   font-size: 7.5px;
+   border-radius: 10px;
+   cursor: pointer;
+   width: 90px;
+   height:50px;
+   color:white;
+ }
+ .dropdown {
+   position: relative;
+   display: inline-block;
+}
+
+.dropdown-content {
+   display: none;
+   position: absolute;
+   background-color: #f9f9f9;
+   width: 180px;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   z-index: 1;
+   border-radius: 15px;
+   background-color: rgb(255, 136, 34);
+}
+
+.dropdown-content a {
+   color: white;
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+   
+  border-radius: 15px;
+}
+.dropdown-content a:hover {background-color: #1b3b4d}
+
+.dropdown:hover .dropdown-content {
+   display: block;
+}
+
+.dropdown:hover .dropbtn {
+   background-color: #3e8e41;
+}
+
+ .dropmenu1{
+   position: relative;
+   bottom: 110px;
+   left:130px;
+   z-index: 3;
+
+ }
+ .dropmenu2{
+   position: relative;
+   bottom: 100px;
+   left:130px;
+   z-index: 3;
+ }
+ .dropmenu3{
+   /*width: 10%;*/
+   position: relative;
+   bottom: 90px;
+   left: 130px;
+   z-index: 2;
+
+ }.dropmenu4{
+/*   width: 10%;*/
+   position: relative;
+   bottom: 80px;
+   left: 130px;
+   z-index: 2;
+ }
+ .dropdown-content {
+   display: none;
+   position: absolute;
+   right:90px;
+   background-color: #f9f9f9;
+   width: 100px;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   z-index: 1;
+   border-radius: 15px;
+   background-color: rgb(255, 136, 34);
+}
+.dropdown-content a {
+   color: white;
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+   font-size: 10px;
+  border-radius: 15px;
+}
+   .required{
+       position: relative;
+       top: 0px;
+   }
+   .bangdiem{
+       position: relative;
+       bottom:550px;
+       left:20px;
+       width: 100%;
+
+   }
+   .tbl_bangdiem{
+       position: relative;
+       left:20;
+       bottom: 550px;
+   }
+   .chart{
+       height: 50%;
+
+   }
+
+    div#result.tbl_bangdiem{
+       position: relative;
+       right:100px;
+       background-color:rgba(71, 93, 119, 0.75);
+       width: 580;
+       border-radius: 15px;
+       color:white;
+   }
+    div#abc.tbl_bangdiem{
+       position: relative;
+       right:100px;
+       background-color:rgba(71, 93, 119, 0.75);
+       width: 580;
+       border-radius: 15px;
+       color:white;
+   }
+   
+   table#allan.display.dataTable{
+       width:580;
+       font-size: 12px;
+       color:white;
+       position: relative;
+   }
+   table.display{
+       font-size: 12px;
+   }
+   .center{
+       color:black;
+   }
+
+   .bangdiem_sl{   
+   font-size: 10px;
+   width: 50%;
+    }
+    .dataTables_filter{
+       font-size: 10px;
+    }
+
+   .dataTables_length{
+   font-size: 10px;
+}
+
+table.display thead th {
+   padding: 0;
+}
+
+   .export{
+       padding:30px 0px 10px 0px;
+        position: relative;
+        top:35px;
+       height: 50px;
+       width: 50%;
+       left:100px;
+   }
+   table.display td{
+       padding: 5px;
+   }
+   .dataTables_paginate{
+       position: relative;
+        right:20px;
+       top:25px;
+       font-size: 15px;
+      
+   }
+   .icon-bar{
+   position: relative;
+   bottom: 200px;
+   height: 280px;
+   width:  5.8%;
+    background-color: #555;
+   padding-left: 10px;
+   border-radius: 25px;
+   position: relative;
+   }
+   .icon-bar a{
+    display: block;
+   text-align: center;
+   padding: 16px;
+   transition: all 0.3s ease;
+   color: white;
+       padding-right: 26px;
+       font-size: 13px;
+       position: relative;
+       right:10px;
+   }
+
+   .title{
+       position: relative;
+       bottom: 470px;
+       left:50px;
+       width: 170px;
+       font-size: 13px;
+       
+   }
+    i{
+       font-size: 15px;
+   }
+   p{
+       font-size: 8px;
+   }
+  html{
+     background-image: none;
+   }
+ body {
+     font: 12px Lucida sans, Arial, Helvetica, sans-serif;
+       color: #333;
+       text-align: center;
+        background-image: url("../images/phone-background.jpg");
+        background-size: 120%;
+}
+.form-wrapper {
+   margin: 100px auto;
+   overflow: hidden;
+   position: relative;
+   bottom: 550px;
+   right: 10px;
+   width: 65%;
+}
+.required{
+   height: 33px;
+   width: 50%;
+}
+.form-wrapper #bnttracuu {
+   background-color:  #393939;
+   cursor: pointer;
+   height: 20px;
+   float: left;
+   font: 15px Arial, Helvetica;
+   padding: 0;
+   text-transform: uppercase;
+   text-shadow: 0 1px 0 rgba(0, 0 ,0, .3);
+   position: relative;
+   right:30px;
+   top: 2px;
+    z-index:3;
+}
+.form-wrapper #bnttracuu_tensinhvien {
+   background-color:  #393939;
+   cursor: pointer;
+   height: 20px;
+   float: left;
+   font: 15px Arial, Helvetica;
+   padding: 0;
+   text-transform: uppercase;
+   text-shadow: 0 1px 0 rgba(0, 0 ,0, .3);
+   width: 50x;
+   position: relative;
+   right:30px;
+   top: 2px;
+
+}
+.labeltimkiem{
+   color:white;
+   position: relative;
+   right:190px;
+   top:30px;
+   font-size: 12px;
+}
+.error{
+   position: relative;
+   bottom: 500px;
+   left: 10;
+   background-color: #94c1c7;
+   border-radius: 25px;
+   width: 550;
+} 
+.error_picture{
+   height: 240px;
+   width:550px;
+   border-radius: 15px;
+}   
+.notice{
+   position: relative;
+   bottom: 530px;
+   left:10px;
+   background-color: white;
+   border-radius: 25px;
+   width: 550;
+}
+.notice_picture{
+   height: 240px;
+   width:550px;
+   border-radius: 15px;
+} 
+.thongtin{
+   position: relative;
+   bottom:500px;
+   left:50px;
+   border-radius: 15px;
+   max-width: 420px;
+   max-height: 250px;
+   background-image:url('../images/anhthe.jpg');
+   background-size:100%;
+   background-repeat: no-repeat;
+}
+.anhthe{
+   width: 120px;
+   height:150px;
+   position: relative;
+   right:120px;
+   border-radius: 15px;
+   border:solid black; 
+   top:10px;
+}
+.sinhvien{
+   position: relative;
+   bottom:90px;
+   left:190px;
+   font-size: 12px;
+}
+.hoten{
+   font-size: 20px;
+}
+.msv{
+position: relative;
+top:20px;
+right:120px;
+color:white;
+font-size: 18px;
+}
+.gif{
+   width: 480px;
+   margin-top:100px;
+   position:relative;
+   bottom:530px;
+   left:20;
+   color:white;
+   font-size:15px;
+   border-radius:25px;
+   background-color:#93aad8;
+}
+.loading-gif{
+   border-radius: 25px;
+   width: 480px;
+   height: 280px;
+}
+}
+
+@media (max-width: 480px) 
+ {
+     .page-container{
+        width:480px;
+    }
+     input{border-radius: 15px; font-size: 10px;z-index:1;}
+    select{border-radius: 15px;}
+      .dropbtn{
+     padding: 8px;
+    font-size: 7.5px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 90px;
+    height:50px;
+    color:white;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 15px;
+    background-color: rgb(255, 136, 34);
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    
+   border-radius: 15px;
+}
+.dropdown-content a:hover {background-color: #1b3b4d}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+  .dropmenu1{
+    position: relative;
+    bottom: 110px;
+    left:100px;
+    z-index: 3;
+
+  }
+  .dropmenu2{
+    position: relative;
+    bottom: 100px;
+    left:100px;
+    z-index: 3;
+  }
+  .dropmenu3{
+    /*width: 10%;*/
+    position: relative;
+    bottom: 90px;
+    left: 100px;
+    z-index: 2;
+
+  }.dropmenu4{
+ /*   width: 10%;*/
+    position: relative;
+    bottom: 80px;
+    left: 100px;
+    z-index: 2;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    right:90px;
+    background-color: #f9f9f9;
+    width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 15px;
+    background-color: rgb(255, 136, 34);
+}
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 10px;
+   border-radius: 15px;
+}
+    .required{
+        position: relative;
+        top: 0px;
+    }
+    .bangdiem{
+        position: relative;
+        bottom:550px;
+        left:20px;
+        width: 100%;
+
+    }
+    .tbl_bangdiem{
+        position: relative;
+        left:0;
+        bottom: 550px;
+    }
+    .chart{
+        height: 50%;
+
+    }
+
+     div#result.tbl_bangdiem{
+        position: relative;
+        right:100px;
+        background-color:rgba(71, 93, 119, 0.75);
+        width: 500;
+        border-radius: 15px;
+        color:white;
+    }
+     div#abc.tbl_bangdiem{
+        position: relative;
+        right:100px;
+        background-color:rgba(71, 93, 119, 0.75);
+        width: 500;
+        border-radius: 15px;
+        color:white;
+    }
+    
+    table#allan.display.dataTable{
+        width:500;
+        font-size: 12px;
+        color:white;
+        position: relative;
+    }
+    table.display{
+        font-size: 12px;
+    }
+    .center{
+        color:black;
+    }
+
+    .bangdiem_sl{   
+    font-size: 10px;
+    width: 50%;
+     }
+     .dataTables_filter{
+        font-size: 10px;
+     }
+
+    .dataTables_length{
+    font-size: 10px;
+}
+
+table.display thead th {
+    padding: 0;
+}
+
+    .export{
+        padding:30px 0px 10px 0px;
+         position: relative;
+         top:35px;
+        height: 50px;
+        width: 50%;
+        left:100px;
+    }
+    table.display td{
+        padding: 5px;
+    }
+    .dataTables_paginate{
+        position: relative;
+         right:20px;
+        top:25px;
+        font-size: 15px;
+       
+    }
+    .icon-bar{
+    position: relative;
+    bottom: 200px;
+    height: 280px;
+    width: 7%;
+     background-color: #555;
+    padding-left: 10px;
+    border-radius: 25px;
+    position: relative;
+    }
+    .icon-bar a{
+     display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+        padding-right: 26px;
+        font-size: 13px;
+        position: relative;
+        right:10px;
+    }
+
+    .title{
+        position: relative;
+        bottom: 470px;
+        left:50px;
+        width: 170px;
+        font-size: 13px;
+        
+    }
+     i{
+        font-size: 15px;
+    }
+    p{
+        font-size: 8px;
+    }
+   html{
+      background-image: none;
+    }
+  body {
+      font: 12px Lucida sans, Arial, Helvetica, sans-serif;
+        color: #333;
+        text-align: center;
+         background-image: url("../images/phone-background.jpg");
+         background-size: 120%;
+}
+ .form-wrapper {
+    margin: 100px auto;
+    overflow: hidden;
+    position: relative;
+    bottom: 550px;
+    right: 10px;
+    width: 65%;
+}
+.required{
+    height: 33px;
+    width: 50%;
+}
+.form-wrapper #bnttracuu {
+    background-color:  #393939;
+    cursor: pointer;
+    height: 20px;
+    float: left;
+    font: 15px Arial, Helvetica;
+    padding: 0;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 rgba(0, 0 ,0, .3);
+    position: relative;
+    right:30px;
+    top: 2px;
+    z-index:3;
+}
+.form-wrapper #bnttracuu_tensinhvien {
+    background-color:  #393939;
+    cursor: pointer;
+    height: 20px;
+    float: left;
+    font: 15px Arial, Helvetica;
+    padding: 0;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 rgba(0, 0 ,0, .3);
+    width: 50x;
+    position: relative;
+    right:30px;
+    top: 2px;
+
+}
+.labeltimkiem{
+    color:white;
+    position: relative;
+    right:160px;
+    top:30px;
+    font-size: 12px;
+}
+.error{
+    position: relative;
+    bottom: 500px;
+    left: 10;
+    background-color: #94c1c7;
+    border-radius: 25px;
+    width: 480;
+} 
+.error_picture{
+    height: 240px;
+    width:480px;
+    border-radius: 15px;
+}   
+.notice{
+    position: relative;
+    bottom: 530px;
+    background-color: white;
+    border-radius: 25px;
+    width: 480;
+}
+.notice_picture{
+    height: 240px;
+    width:480px;
+    border-radius: 15px;
+} 
+.thongtin{
+    position: relative;
+    bottom:500px;
+    left:20px;
+    border-radius: 15px;
+    max-width: 420px;
+    max-height: 250px;
+    background-image:url('../images/anhthe.jpg');
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+.anhthe{
+    width: 120px;
+    height:150px;
+    position: relative;
+    right:120px;
+    border-radius: 15px;
+    border:solid black; 
+    top:10px;
+}
+.sinhvien{
+    position: relative;
+    bottom:90px;
+    left:190px;
+    font-size: 12px;
+}
+.hoten{
+    font-size: 20px;
+}
+.msv{
+position: relative;
+top:20px;
+right:120px;
+color:white;
+font-size: 18px;
+}
+.gif{
+    width: 480px;
+    margin-top:100px;
+    position:relative;
+    bottom:530px;
+    left:20;
+    color:white;
+    font-size:15px;
+    border-radius:25px;
+    background-color:#93aad8;
+}
+.loading-gif{
+    border-radius: 25px;
+    width: 480px;
+    height: 280px;
+}
+}
+
+
+
+@media (max-width: 414px)
+ {
+  
+     .page-container{
+        width:414px;
+    }
+     input{border-radius: 15px; font-size: 10px;z-index:2;}
+    select{border-radius: 15px;}
+      .dropbtn{
+     padding: 8px;
+    font-size: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100px;
+    height:60px;
+    color:white;
+  }
+  .dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 100px;
+    top: 0px;
+    background-color: #f9f9f9;
+    width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 15px;
+    background-color: rgb(255, 136, 34);
+    width: 120px;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+   border-radius: 15px;
+}
+ .dropdown-content a:hover {background-color: #1b3b4d}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+  .dropmenu1{
+    position: relative;
+    bottom: 110px;
+    left:80px;
+
+  }
+  .dropmenu2{
+    position: relative;
+    bottom: 100px;
+    left:80px;
+  }
+  .dropmenu3{
+/*    width: 10%;*/
+    position: relative;
+    bottom: 90px;
+    left: 80px;
+
+  }.dropmenu4{
+/*    width: 10%;*/
+    position: relative;
+    bottom:80px;
+    left: 80px;
+    z-index:1;
+  }
+  .dropmenu5{
+    position: relative;
+    top: 230px;
+    right:80px;
+  }
+    .required{
+        position: relative;
+        top: 0px;
+    }
+    .bangdiem{
+        position: relative;
+        bottom:550px;
+        left:20px;
+        width: 70%;
+
+    }
+    .tbl_bangdiem{
+        position: relative;
+        left:0;
+        bottom: 550px;
+        width:130%;
+    }
+    .chart{
+        height: 50%;
+
+    }
+
+     div#result.tbl_bangdiem{
+        position: relative;
+        right:100px;
+        background-color:rgba(71, 93, 119, 0.75);
+        width: 130%;
+        border-radius: 15px;
+        color:white;
+    }
+     div#abc.tbl_bangdiem{
+        position: relative;
+        right:100px;
+        background-color:rgba(71, 93, 119, 0.75);
+        width: 100%;
+        border-radius: 15px;
+        color:white;
+    }
+    
+    table#allan.display.dataTable{
+        width:100%;
+        font-size: 10px;
+        color:white;
+        position: relative;
+    }
+    table.display{
+        padding-left:10px;
+        font-size: 8px;
+    }
+    .center{
+        color:black;
+    }
+
+    .bangdiem_sl{   
+    font-size: 10px;
+    width: 50%;
+     }
+     .dataTables_filter{
+        font-size: 10px;
+     }
+
+    .dataTables_length{
+    font-size: 10px;
+}
+
+table.display thead th {
+    padding: 0;
+}
+
+    .export{
+        padding:30px 0px 10px 0px;
+         position: relative;
+         top:35px;
+        height: 50px;
+        width: 50%;
+        left:100px;
+    }
+    table.display td{
+        padding: 0px;
+    }
+    .dataTables_paginate{
+        font-size: 10px;
+       
+    }
+     .icon-bar{
+    position: relative;
+    bottom: 245px;
+    height: 280px;
+    width: 32;
+     background-color: #555;
+    padding-left: 10px;
+    border-radius: 25px;
+    }
+    .icon-bar a{
+     display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+        padding-right: 26px;
+        font-size: 13px;
+        position: relative;
+        right:10px;
+    }
+
+    .title{
+        position: relative;
+        bottom: 520px;
+        left:50px;
+        width: 170px;
+        font-size: 13px;
+        
+    }
+    .sub-title{
+        font-size: 15px;
+    }
+
+     i{
+        font-size: 15px;
+    }
+    p{
+        font-size: 8px;
+    }
+   html{
+      background-image: none;
+    }
+  body {
+      font: 12px Lucida sans, Arial, Helvetica, sans-serif;
+        color: #333;
+        text-align: center;
+         background-image: url("../images/phone-background.jpg");
+         background-size: 150%;
+}
+ .form-wrapper {
+    margin: 100px auto;
+    overflow: hidden;
+    position: relative;
+    bottom: 600px;
+    right: 30px;
+    width: 60%;
+}
+.required{
+    height: 33px;
+    width: 50%;
+}
+.form-wrapper #bnttracuu {
+    background-color:  #393939;
+    cursor: pointer;
+    height: 20px;
+    float: left;
+    font: 15px Arial, Helvetica;
+    padding: 0;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 rgba(0, 0 ,0, .3);
+    position: relative;
+    right:30px;
+    top: 2px;
+    z-index:3;
+
+}
+.form-wrapper #bnttracuu_tensinhvien {
+    background-color:  #393939;
+    cursor: pointer;
+    height: 20px;
+    float: left;
+    font: 15px Arial, Helvetica;
+    padding: 0;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 rgba(0, 0 ,0, .3);
+    width: 50x;
+    position: relative;
+    right:30px;
+    top: 2px;
+    z-index:3;
+}
+.labeltimkiem{
+    color:white;
+    position: relative;
+    right:130px;
+    top:30px;
+    font-size: 12px;
+    z-index:3;
+}
+.error{
+    position: relative;
+    bottom: 500px;
+    background-color: #94c1c7;
+    border-radius: 25px;
+    width: 120%;
+} 
+.error_picture{
+    height: 240px;
+    width:350px;
+    border-radius: 15px;
+}   
+.notice{
+    position: relative;
+    bottom: 500px;
+    background-color: white;
+    border-radius: 25px;
+    width: 120%;
+}
+.notice_picture{
+    height: 240px;
+    width:350px;
+    border-radius: 15px;
+} 
+.thongtin{
+    position: relative;
+    bottom:500px;
+    left:0px;
+    border-radius: 13px;
+    max-width: 450px;
+    max-height: 240px;
+    background-image:url('../images/anhthe.jpg');
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+.anhthe{
+    width: 120px;
+    height:160px;
+    position: relative;
+    right:120px;
+    border-radius: 15px;
+    border:solid black; 
+    top:10px;
+}
+.sinhvien{
+    position: relative;
+    bottom:110px;
+    left:185px;
+    font-size: 13px;
+}
+.hoten{
+    font-size: 16px;
+}
+.msv{
+position: relative;
+top:20px;
+right:120px;
+color:white;
+}
+
+.gif{
+    width: 100%;
+    margin-top:100px;
+    position:relative;
+    bottom:500px;
+    left:0;
+    color:white;
+    font-size:15px;
+    border-radius:25px;
+    background-color:#93aad8;
+}
+.loading-gif
+{
+width:414px;
+height:250px;
+}
+
+}
+
+
+@media (max-width: 375px)
+ {
+     .page-container{
+        width:350px;
+    }
+     input{border-radius: 15px; font-size: 10px;}
+    select{border-radius: 15px;}
+      .dropbtn{
+     padding: 8px;
+    font-size: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100px;
+    height:60px;
+    color:white;
+  }
+  .dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 100px;
+    top: 0px;
+    background-color: #f9f9f9;
+    width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 15px;
+    background-color: rgb(255, 136, 34);
+    width: 120px;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+   border-radius: 15px;
+}
+ .dropdown-content a:hover {background-color: #1b3b4d}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+  .dropmenu1{
+    position: relative;
+    bottom: 110px;
+    left:80px;
+
+  }
+  .dropmenu2{
+    position: relative;
+    bottom: 100px;
+    left:80px;
+  }
+  .dropmenu3{
+/*    width: 10%;*/
+    position: relative;
+    bottom: 90px;
+    left: 80px;
+
+  }.dropmenu4{
+/*    width: 10%;*/
+    position: relative;
+    bottom:80px;
+    left: 80px;
+  }
+  .dropmenu5{
+    position: relative;
+    top: 230px;
+    right:50px;
+  }
+    .required{
+        position: relative;
+        top: 0px;
+    }
+    .bangdiem{
+        position: relative;
+        bottom:580px;
+        left:20px;
+        width: 70%;
+
+    }
+    .tbl_bangdiem{
+        position: relative;
+        left:10;
+        bottom: 580px;
+    }
+    .chart{
+        height: 50%;
+
+    }
+
+     div#result.tbl_bangdiem{
+        position: relative;
+        right:100px;
+        background-color:rgba(71, 93, 119, 0.75);
+        width: 400;
+        border-radius: 15px;
+        color:white;
+    }
+     div#abc.tbl_bangdiem{
+        position: relative;
+        right:100px;
+        background-color:rgba(71, 93, 119, 0.75);
+        width: 400;
+        border-radius: 15px;
+        color:white;
+    }
+
+   
+    table#allan.display.dataTable{
+        width:400;
+        font-size: 11px;
+        color:white;
+        position: relative;
+    }
+    table.display{
+        font-size: 10.5px;
+    }
+    .dataTables_info{
+        font-size: 8px;
+    }
+    .center{
+        color:black;
+    }
+
+    .bangdiem_sl{   
+    font-size: 10px;
+    width: 50%;
+     }
+     .dataTables_filter{
+        font-size: 10px;
+     }
+
+    .dataTables_length{
+    font-size: 10px;
+}
+
+table.display thead th {
+    padding: 0;
+}
+
+    .export{
+        padding:30px 0px 10px 0px;
+         position: relative;
+         top:35px;
+        height: 50px;
+        width: 50%;
+        left:100px;
+    }
+    table.display td{
+        padding: 5px;
+    }
+    .dataTables_paginate{
+        position: relative;
+         right:20px;
+        top:25px;
+        font-size: 15px;
+       
+    }
+     .icon-bar{
+    position: relative;
+    bottom: 245px;
+    height: 280px;
+    width: 32;
+     background-color: #555;
+    padding-left: 10px;
+    border-radius: 25px;
+    }
+    .icon-bar a{
+     display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+        padding-right: 26px;
+        font-size: 13px;
+        position: relative;
+        right:10px;
+    }
+
+    .title{
+        position: relative;
+        bottom: 520px;
+        left:50px;
+        width: 170px;
+        font-size: 13px;
+        
+    }
+    .sub-title{
+        font-size: 15px;
+    }
+
+     i{
+        font-size: 15px;
+    }
+    p{
+        font-size: 8px;
+    }
+   html{
+      background-image: none;
+    }
+  body {
+      font: 12px Lucida sans, Arial, Helvetica, sans-serif;
+        color: #333;
+        text-align: center;
+         background-image: url("../images/phone-background.jpg");
+         background-size: 150%;
+}
+ .form-wrapper {
+    margin: 100px auto;
+    overflow: hidden;
+    position: relative;
+    bottom: 600px;
+    right: 0px;
+    width: 70%;
+}
+.required{
+    height: 33px;
+    width: 50%;
+}
+.form-wrapper #bnttracuu {
+    background-color:  #393939;
+    cursor: pointer;
+    height: 20px;
+    float: left;
+    font: 15px Arial, Helvetica;
+    padding: 0;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 rgba(0, 0 ,0, .3);
+    position: relative;
+    right:30px;
+    top: 2px;
+    z-index:3;
+
+}
+.form-wrapper #bnttracuu_tensinhvien {
+    background-color:  #393939;
+    cursor: pointer;
+    height: 20px;
+    float: left;
+    font: 15px Arial, Helvetica;
+    padding: 0;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 rgba(0, 0 ,0, .3);
+    width: 50x;
+    position: relative;
+    right:30px;
+    top: 2px;
+    z-index:3;
+}
+.labeltimkiem{
+    color:white;
+    position: relative;
+    right:135px;
+    top:30px;
+    font-size: 12px;
+}
+.error{
+    position: relative;
+    bottom: 580px;
+    background-color: #94c1c7;
+    border-radius: 25px;
+    width: 350px;
+    left:0;
+} 
+.error_picture{
+    height: 240px;
+    width:350px;
+    border-radius: 15px;
+}   
+.notice{
+    position: relative;
+    bottom: 500px;
+    left:0;
+    background-color: white;
+    border-radius: 25px;
+    width: 350px;
+}
+.notice_picture{
+
+    height: 240px;
+    width:350px;
+    border-radius: 15px;
+} 
+.thongtin{
+    position: relative;
+    bottom:500px;
+    left:10px;
+    border-radius: 13px;
+    max-width: 370px;
+    max-height: 210px;
+    background-image:url('../images/anhthe.jpg');
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+.anhthe{
+    width: 100px;
+    height:135px;
+    position: relative;
+    right:100px;
+    border-radius: 15px;
+    border:solid black; 
+    top:10px;
+}
+.sinhvien{
+    position: relative;
+    bottom:90px;
+    left:160px;
+    font-size: 12px;
+}
+.hoten{
+    font-size: 18px;
+}
+.msv{
+position: relative;
+top:20px;
+right:100px;
+color:white;
+}
+
+.gif{
+    width: 350px;
+    margin-top:100px;
+    position:relative;
+    bottom:520px;
+    left:10;
+    color:white;
+    font-size:15px;
+    border-radius:25px;
+    background-color:#93aad8;
+}
+
+.loading-gif{
+    max-width: 350px;
+    max-height: 400px;
+    border-radius: 14px;
+}
+}
+
+
+@media (max-width: 360px)
+ {
+     .page-container{
+        width:360px;
+    }
+     input{border-radius: 15px; font-size: 10px;z-index: 2;}
+    select{border-radius: 15px;}
+      .dropbtn{
+     padding: 8px;
+    font-size: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100px;
+    height:60px;
+    color:white;
+  }
+  .dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 100px;
+    top: 0px;
+    background-color: #f9f9f9;
+    width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 2;
+    border-radius: 15px;
+    background-color: rgb(255, 136, 34);
+    width: 120px;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+   border-radius: 15px;
+}
+ .dropdown-content a:hover {background-color: #1b3b4d}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+  .dropmenu1{
+    position: relative;
+    bottom: 110px;
+    left: 60px;
+    z-index: 2;
+
+  }
+  .dropmenu2{
+    position: relative;
+    bottom: 100px;
+    left: 60px;
+    z-index:2;
+  }
+  .dropmenu3{
+/*    width: 10%;*/
+    position: relative;
+    bottom: 90px;
+    left: 60px;
+    z-index: 1;
+
+  }.dropmenu4{
+/*    width: 10%;*/
+    position: relative;
+    bottom:80px;
+    left: 60px;
+    z-index: 1;
+  }
+  .dropmenu5{
+    position: relative;
+    top: 230px;
+    right:60px;
+  }
+    .required{
+        position: relative;
+        top: 0px;
+    }
+    .bangdiem{
+        position: relative;
+        bottom:580px;
+        left:20px;
+        width: 70%;
+
+    }
+    .tbl_bangdiem{
+        position: relative;
+        left:10px;
+        bottom: 580px;
+    }
+    .chart{
+        height: 50%;
+
+    }
+
+     div#result.tbl_bangdiem{
+        position: relative;
+        right:100px;
+        background-color:rgba(71, 93, 119, 0.75);
+        width: 400px;
+        border-radius: 15px;
+        color:white;
+    }
+     div#abc.tbl_bangdiem{
+        position: relative;
+        right:100px;
+        background-color:rgba(71, 93, 119, 0.75);
+        width: 400px;
+        border-radius: 15px;
+        color:white;
+    }
+    
+    
+    table#allan.display.dataTable{
+        width:400px;
+        font-size: 10px;
+        color:white;
+        position: relative;
+    }
+    table.display{
+        font-size: 10px;
+    }
+    .dataTables_info{
+        font-size: 8px;
+    }
+    .center{
+        color:black;
+    }
+
+    .bangdiem_sl{   
+    font-size: 10px;
+    width: 50%;
+     }
+     .dataTables_filter{
+        font-size: 10px;
+     }
+
+    .dataTables_length{
+    font-size: 10px;
+}
+
+table.display thead th {
+    padding: 0;
+}
+
+    .export{
+        padding:30px 0px 10px 0px;
+         position: relative;
+         top:35px;
+        height: 50px;
+        width: 50%;
+        left:100px;
+    }
+    table.display td{
+        padding: 5px;
+    }
+    .dataTables_paginate{
+        position: relative;
+         right:20px;
+        top:25px;
+        font-size: 15px;
+       
+    }
+     .icon-bar{
+    position: relative;
+    bottom: 245px;
+    height: 280px;
+    width: 32;
+     background-color: #555;
+    padding-left: 10px;
+    border-radius: 25px;
+    }
+    .icon-bar a{
+     display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+        padding-right: 26px;
+        font-size: 13px;
+        position: relative;
+        right:10px;
+    }
+
+    .title{
+        position: relative;
+        bottom: 520px;
+        left:50px;
+        width: 170px;
+        font-size: 13px;
+        
+    }
+    .sub-title{
+        font-size: 15px;
+    }
+
+     i{
+        font-size: 15px;
+    }
+    p{
+        font-size: 8px;
+    }
+   html{
+      background-image: none;
+    }
+  body {
+      font: 12px Lucida sans, Arial, Helvetica, sans-serif;
+        color: #333;
+        text-align: center;
+         background-image: url("../images/phone-background.jpg");
+         background-size: 150%;
+}
+ .form-wrapper {
+    margin: 100px auto;
+    overflow: hidden;
+    position: relative;
+    bottom: 600px;
+    right: 0px;
+    width: 70%;
+}
+.required{
+    height: 33px;
+    width: 50%;
+}
+.form-wrapper #bnttracuu {
+    background-color:  #393939;
+    cursor: pointer;
+    height: 20px;
+    float: left;
+    font: 15px Arial, Helvetica;
+    padding: 0;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 rgba(0, 0 ,0, .3);
+    position: relative;
+    right:30px;
+    top: 2px;
+    z-index: 3;
+}
+.form-wrapper #bnttracuu_tensinhvien {
+    background-color:  #393939;
+    cursor: pointer;
+    height: 20px;
+    float: left;
+    font: 15px Arial, Helvetica;
+    padding: 0;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 rgba(0, 0 ,0, .3);
+    position: relative;
+    right:30px;
+    top: 2px;
+    z-index:1;
+
+}
+.labeltimkiem{
+    color:white;
+    position: relative;
+    right:130px;
+    top:30px;
+    font-size: 10px;
+    z-index: 1;
+}
+.error{
+    position: relative;
+    bottom: 580px;
+    background-color: #94c1c7;
+    border-radius: 25px;
+    width: 400px;
+    left:10;
+} 
+.error_picture{
+    height: 240px;
+    width:400px;
+    border-radius: 15px;
+}   
+.notice{
+    position: relative;
+    bottom: 580px;
+    left:10;
+    background-color: white;
+    border-radius: 25px;
+    width: 400px;
+}
+.notice_picture{
+
+    height: 240px;
+    width:400px;
+    border-radius: 15px;
+} 
+.thongtin{
+    position: relative;
+    bottom:550px;
+    left:20px;
+    border-radius: 13px;
+    max-width: 300px;
+    max-height: 180px;
+    background-image:url('../images/anhthe.jpg');
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+.anhthe{
+    width: 90px;
+    height:120px;
+    position: relative;
+    right:90px;
+    border-radius: 15px;
+    border:solid black; 
+    top:10px;
+}
+.sinhvien{
+    position: relative;
+    bottom:85px;
+    left:135px;
+    font-size: 10px;
+}
+.hoten{
+    font-size: 13px;
+}
+.msv{
+position: relative;
+top:20px;
+right:100px;
+color:white;
+}
+
+.gif{
+    width: 340px;
+    margin-top:100px;
+    position:relative;
+    bottom:550px;
+    left:10;
+    color:white;
+    font-size:15px;
+    border-radius:25px;
+    background-color:#93aad8;
+}
+
+.loading-gif{
+    width: 340px;
+    height: 200px;
+    border-radius: 14px;
+}
+}
+
+
+@media (max-width: 320px)
+ {
+     .page-container{
+        width:320px;
+    }
+     input{border-radius: 15px; font-size: 10px;z-index: 1;}
+    select{border-radius: 15px;}
+      .dropbtn{
+     padding: 8px;
+    font-size: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100px;
+    height:60px;
+    color:white;
+  }
+  .dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 100px;
+    top: 0px;
+    background-color: #f9f9f9;
+    width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 15px;
+    background-color: rgb(255, 136, 34);
+    width: 120px;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+   border-radius: 15px;
+}
+ .dropdown-content a:hover {background-color: #1b3b4d}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content a:hover .dropdown-content{display: none}
+
+
+  .dropmenu1{
+    position: relative;
+    bottom: 110px;
+    left:40px;
+    z-index: 2;
+
+  }
+  .dropmenu2{
+    position: relative;
+    bottom: 100px;
+    left:40px;
+    z-index:2;
+  }
+  .dropmenu3{
+/*    width: 10%;*/
+    position: relative;
+    bottom: 90px;
+    left: 40px;
+    z-index: 1;
+
+  }.dropmenu4{
+/*    width: 10%;*/
+    position: relative;
+    bottom:80px;
+    left: 40px;
+    z-index: 1;
+  }
+    .required{
+        position: relative;
+        top: 0px;
+    }
+    .bangdiem{
+        position: relative;
+        bottom:580px;
+        left:20px;
+        width: 70%;
+
+    }
+    .tbl_bangdiem{
+        position: relative;
+        left:0;
+        bottom: 580px;
+    }
+    .chart{
+        height: 50%;
+
+    }
+
+     div#result.tbl_bangdiem{
+        position: relative;
+        right:100px;
+        background-color:rgba(71, 93, 119, 0.75);
+        width: 360px;
+        border-radius: 15px;
+        color:white;
+    }
+     div#abc.tbl_bangdiem{
+        position: relative;
+        right:100px;
+        background-color:rgba(71, 93, 119, 0.75);
+        width: 360px;
+        border-radius: 15px;
+        color:white;
+    }
+
+    
+    table#allan.display.dataTable{
+        width:360px;
+        font-size: 10px;
+        color:white;
+        position: relative;
+    }
+    table.display{
+        font-size: 8px;
+    }
+    .dataTables_info{
+        font-size: 8px;
+    }
+    .center{
+        color:black;
+    }
+
+    .bangdiem_sl{   
+    font-size: 10px;
+    width: 50%;
+     }
+     .dataTables_filter{
+        font-size: 10px;
+     }
+
+    .dataTables_length{
+    font-size: 10px;
+}
+
+table.display thead th {
+    padding: 0;
+}
+
+    .export{
+        padding:30px 0px 10px 0px;
+         position: relative;
+         top:35px;
+        height: 50px;
+        width: 50%;
+        left:100px;
+    }
+    table.display td{
+        padding: 5px;
+    }
+    .dataTables_paginate{
+        position: relative;
+         right:20px;
+        top:25px;
+        font-size: 15px;
+       
+    }
+     .icon-bar{
+    position: relative;
+    bottom: 245px;
+    height: 280px;
+    width: 32;
+     background-color: #555;
+    padding-left: 10px;
+    border-radius: 25px;
+    }
+    .icon-bar a{
+     display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+        padding-right: 26px;
+        font-size: 13px;
+        position: relative;
+        right:10px;
+    }
+
+    .title{
+        position: relative;
+        bottom: 520px;
+        left:50px;
+        width: 170px;
+        font-size: 13px;
+        
+    }
+    .sub-title{
+        font-size: 15px;
+    }
+
+     i{
+        font-size: 15px;
+    }
+    p{
+        font-size: 8px;
+    }
+   html{
+      background-image: none;
+    }
+  body {
+      font: 12px Lucida sans, Arial, Helvetica, sans-serif;
+        color: #333;
+        text-align: center;
+         background-image: url("../images/phone-background.jpg");
+         background-size: 150%;
+}
+ .form-wrapper {
+    margin: 100px auto;
+    overflow: hidden;
+    position: relative;
+    bottom: 600px;
+    right: 0px;
+    width: 70%;
+}
+.required{
+    height: 33px;
+    width: 50%;
+}
+.form-wrapper #bnttracuu {
+    background-color:  #393939;
+    cursor: pointer;
+    height: 20px;
+    float: left;
+    font: 15px Arial, Helvetica;
+    padding: 0;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 rgba(0, 0 ,0, .3);
+    position: relative;
+    right:30px;
+    top: 2px;
+    z-index:3;
+}
+.form-wrapper #bnttracuu_tensinhvien {
+    background-color:  #393939;
+    cursor: pointer;
+    height: 20px;
+    float: left;
+    font: 15px Arial, Helvetica;
+    padding: 0;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 rgba(0, 0 ,0, .3);
+    position: relative;
+    right:30px;
+    top: 2px;
+
+}
+.labeltimkiem{
+    color:white;
+    position: relative;
+    right:120px;
+    top:30px;
+    font-size: 10px;
+}
+.error{
+    position: relative;
+    bottom: 580px;
+    background-color: #94c1c7;
+    border-radius: 25px;
+    width: 300px;
+    left:10;
+} 
+.error_picture{
+    height: 240px;
+    width:300px;
+    border-radius: 15px;
+}   
+.notice{
+    position: relative;
+    bottom: 500px;
+    left:10;
+    background-color: white;
+    border-radius: 25px;
+    width: 300px;
+}
+.notice_picture{
+
+    height: 240px;
+    width:300px;
+    border-radius: 15px;
+} 
+.thongtin{
+    position: relative;
+    bottom:550px;
+    left:10px;
+    border-radius: 13px;
+    max-width: 300px;
+    max-height: 180px;
+    background-image:url('../images/anhthe.jpg');
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+.anhthe{
+    width: 90px;
+    height:120px;
+    position: relative;
+    right:90px;
+    border-radius: 15px;
+    border:solid black; 
+    top:10px;
+}
+.sinhvien{
+    position: relative;
+    bottom: 95px;
+    left:140px;
+    font-size: 10px;
+}
+.hoten{
+    font-size: 13px;
+}
+.msv{
+position: relative;
+top:20px;
+right:90px;
+color:white;
+}
+
+.gif{
+    width: 300px;
+    margin-top:100px;
+    position:relative;
+    bottom:550px;
+    left:10;
+    color:white;
+    font-size:15px;
+    border-radius:25px;
+    background-color:#93aad8;
+}
+
+.loading-gif{
+    max-width: 300px;
+    max-height: 400px;
+    border-radius: 14px;
+}
+}

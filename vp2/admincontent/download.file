@@ -1,0 +1,146 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <title>HPU Central Authentication Service</title>
+  <!-- Modernizr -->
+  <script src="/js/libs/modernizr-2.6.2.min.js"></script>
+  <!-- jQuery -->
+  <script type="text/javascript" src="/js/libs/jquery-1.8.2.min.js"></script>
+  <script type="text/javascript" src="/js/jquery.unveil.js"></script>
+  <script type="text/javascript" src="/js/jquery-ui.js"></script>
+  <!-- GroundworkCSS -->
+
+  <link type="text/css" rel="stylesheet" href="/css/groundwork.css">
+  <link type="text/css" rel="stylesheet" href="/css/jquery-ui.css">
+  <!--[if IE]>
+  <link type="text/css" rel="stylesheet" href="./css/groundwork-ie.css">
+  <![endif]-->
+  <!--[if lt IE 9]>
+  <script type="text/javascript" src="./js/libs/html5shiv.min.js"></script>
+  <![endif]-->
+  <!--[if IE 7]>
+  <link type="text/css" rel="stylesheet" href="./css/font-awesome-ie7.min.css">
+  <![endif]-->
+  <script type="text/javascript">
+    // fallback if SVG unsupported
+    Modernizr.load({
+      test: Modernizr.svg,
+      nope: '/css/no-svg.css'
+    });
+    // polyfill for HTML5 placeholders
+    Modernizr.load({
+      test: Modernizr.input.placeholder,
+      nope: [
+        '/css/placeholder_polyfill.css',
+        '/js/libs/placeholder_polyfill.jquery.js'
+      ]
+    });
+  </script>
+  
+</head>
+<body>
+  
+    <div class="container">
+      <div class="row">
+        <div class="one half">
+          <h1 class="big responsive heading" data-compression="9" data-min="20" data-max="200" style="font-size: 66px;"><a href="/"><span class="logo"></span> </a></h1>
+        </div>
+        <div class="one half double pad-top">
+          <nav class="inline pull-right">
+             <ul>
+                     
+                      <li><a class="menu small-tablet" title="Đăng nhập" id="login-menu">Đăng nhập</a></li>            
+                      <li><a class="menu small-tablet" title="Đăng ký" href="http://acc.hpu.edu.vn"></i>Đăng ký</a></li>            
+            <li><a class="menu small-tablet" title="Khởi tạo mật khẩu" href="http://acc.hpu.edu.vn" id="pw-menu">Quên mật khẩu?</a></li>            
+                                                  
+                    
+                  <li><a class="menu small-tablet" title="Hướng dẫn sử dụng hệ thống" class="menu small-tablet" id="help-menu">Hướng dẫn</a></li>    
+              </ul>              
+          </nav>
+        </div>
+      </div>
+    </div>
+  
+  
+  <div class="container">    
+    <div class="row">     
+      <div class="two fourths skip-one" >
+     
+      <div class="padded" id="accTpl"></div>
+              
+      </div>         
+    </div>
+     
+    <br /> <br />
+    <footer class="footer align-center">
+        <p>&copy; 2013 Trường Đại học Dân lập Hải Phòng - Haiphong Private University</p>       
+    </footer>
+    
+  </div>
+  <!-- scripts -->
+  <script type="text/javascript" src="/js/plugins/jquery.orbit-1.4.0.js"></script>  
+  <script type="text/javascript" src="/js/mustache.js"></script>
+
+
+<script type="text/javascript">
+  $(document).ready(function(){
+      var template = $('#loginTpl').html();
+      var html = Mustache.to_html(template);
+      $('#accTpl').html(html);      
+  })   ;
+  $("#login-menu").click(function() {
+      var template2 = $('#loginTpl').html();
+      var html2 = Mustache.to_html(template2);      
+      $('#accTpl').html(html2);
+  });
+  $("#help-menu").click(function() {
+      var template2 = $('#helpTpl').html();
+      var html2 = Mustache.to_html(template2);      
+      $('#accTpl').html(html2);
+  });
+  $("img").unveil();
+</script>
+<script id="helpTpl" type="text/template"> 
+  <h2>Hướng dẫn đăng ký hệ thống:</h2>
+<p>- Nếu bạn là sinh viên, vui lòng đến <a href="http://hpu.edu.vn/sinhvien">cổng thông tin sinh viên</a> để thay đổi email, email bắt buộc phải có hiệu lực sử dụng để đăng ký. <strong>Địa chỉ email này rất quan trọng vì không thể thay đổi khi đã đăng ký.</strong> <span>Khuyến khích sử dụng gmail, các bạn có thể đăng ký tài khoản Gmail tại <a href="http://http://gmail.com/">đây</a></span></p><br />
+<p>- Nếu bạn là cán bộ, giảng viên, bạn phải đăng ký với tài khoản email của trường.</p>
+<p>- Nếu bạn là khách, vui lòng sử dụng email có hiệu lực sử dụng để đăng ký.</p>
+<p><strong>Mọi vấn đề đăng ký và sử dụng tài khoản vui lòng liên hệ qua email: dungth@hpu.edu.vn</strong></p>
+</script>
+<script id="loginTpl" type="text/template">
+     
+
+        <form method="post" action="login" id="login-form"
+      onsubmit="submitbutton = document.getElementById('login-submit'); submitbutton.value='Please wait...'; submitbutton.disabled=true; return true;">
+          <fieldset>
+            <legend>Đăng nhập</legend>                      
+            <div class="row">
+              <div class="one whole padded">
+                <label for="email">Địa chỉ Email:</label>
+                <input type="email" name="username" placeholder="Địa chỉ Email" id="username" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="one whole padded">
+                <label for="password">Mật khẩu:</label>
+                <input type="password" name="password" placeholder="Mật khẩu" id="password" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="one whole padded">
+         <input type="hidden" id="lt" name="lt" value="LT-1394424943rZUvpZcFjA8X5RWfHw2" />
+        <input type="hidden" id="service" name="service" value="http:&#x2F;&#x2F;localhost&#x2F;vp&#x2F;admincontent&#x2F;&#x2F;login.php" />
+                <button type="submit"  id="login-submit">Đăng nhập</button> 
+              </div>
+            </div>          
+          </fieldset>
+        </form>
+      </script>
+</body>
+</html>
